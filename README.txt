@@ -28,7 +28,9 @@ Create VBS, BAT, MP3 and HTA files in the HappyPong folder
 Execute some files in the HappyPong folder
 Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run, Registry
 Editor,...)
-It also disable features like Aero Peek and most used apps in the Start Menu.
+It also disables features like Aero Peek and most used apps in the Start Menu.
+It also changes AM or PM to "HAPPY"
+It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
 It also creates a bunch of user named "LOVEYOU(random number)"
 Then it changes the default Internet Explorer page to an image of a Backrooms Entity from the video "The Backrooms -
 Found Footage"
@@ -46,11 +48,11 @@ After another 5 seconds, it speaks:
 After a few seconds, it disables Desktop icons and network connections. It plays a Windows 7 Error Remix music
 on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly,
 right?)
-After 100 seconds, it shows a red screen. Then it speaks:
+After 60 seconds, it shows a red screen. Then it speaks:
 "A problem has been detected and windows has been suspended for the rest of your life!"
-And a funny thing is... Every 100 seconds, it shows a red screen then it speaks. It does this eight times (for 8
+And a funny thing is... Every 60 seconds, it shows a red screen then it speaks. It does this eight times (for 8
 minutes)
-After 7 or 8 minutes, it terminates File Explorer, then it shows a message saying:
+After 9 or 10 minutes, it terminates File Explorer, then it shows a message saying:
 "Thank you for playing my game! But you are tricked! You cannot get your computer back! HAHAHAHAHAHAHAHAHA!!!!!
 PREPARE FOR A SHUTDOWN BATTLE!!!!!"
 Then it speaks:
@@ -149,8 +151,10 @@ Sixth, navigate to HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main (
 then look for the "Start Page" key, change the value data to https://www.msn.com/vi-vn?ocid=iehp
 Seventh, navigate to HKEY_CURRENT_USER\Control Panel\International, then look for the s1159 and s2359 key, then
 change the value data to AM and PM (AM for s1159 and PM for s2359)
-Eighth, delete the EXE file.
-Nineth, go to Settings > Accounts > Family & other users, under Other users, select any user named "LOVEYOU(random)". 
+Eighth, navigate to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search\Flighting\1\SearchBoxText, then look for the Value key, then change the value data to "Type here to search"
+If you are using older versions of Windows 10, change the value data to "Search the Web and Windows" or "Search Windows"
+Nineth, delete the EXE file.
+Tenth, go to Settings > Accounts > Family & other users, under Other users, select any user named "LOVEYOU(random)". 
 Next to Account and data, select Remove. Note that this will take several minutes to delete a bunch of users.
 And the last one, restart your computer. Then you're done!
 I hope this helped you, and I'm not responsible if this does not work!
