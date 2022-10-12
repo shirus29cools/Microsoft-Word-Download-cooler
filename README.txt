@@ -1,7 +1,8 @@
 THIS IS A VIRUS MADE BY ME!
 IM NOT RESPONSIBLE FOR ANY DAMAGES!
 
-Trojan.BAT.HappyPong is a dangerous virus that edit the registry. It can be ran on Windows XP and up.
+Trojan.BAT.HappyPong is a dangerous virus that edit the registry. It can be ran on Windows Vista and up.
+This virus cannot be run on Windows XP because it might have errors.
 
 Name:HappyPong, HappyPong.exe, fukpong, fukpong.exe
 Type: Trojan
