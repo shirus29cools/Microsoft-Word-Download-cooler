@@ -7,7 +7,7 @@ Name:HappyPong, HappyPong.exe, fukpong, fukpong.exe
 Type: Trojan
 Operating systems: Microsoft Windows
 Creator: Kevin Reagan
-Date: October 11th, 2022
+Date: October 12th, 2022
 Origin: Vietnam
 Programming Language: Batch
 File type: .exe, .bat
