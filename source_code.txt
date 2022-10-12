@@ -147,6 +147,10 @@ reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v Task
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSaveSettings /t REG_DWORD /d 1 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoWinkeys /t REG_DWORD /d 1 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoLogoff /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoFileAssociate /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoTrayItemsDisplay /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoTrayContextMenu /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /v Hidden /t REG_DWORD /d 2 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableChangePassword /t REG_DWORD /d 1 /f
 reg ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v shutdownwithoutlogon /t REG_DWORD /d 0 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableLockWorkstation /t REG_DWORD /d 1 /f
