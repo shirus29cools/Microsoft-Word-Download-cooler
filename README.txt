@@ -148,7 +148,7 @@ Fourth, type "regedit", press OK
 Fifth, navigate to HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System, then look for the
 "legalnoticecaption" and "legalnoticetext" key, then change the value data to blank.
 Sixth, navigate to HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main (if you have Internet Explorer),
-then look for the "Start Page" key, change the value data to https://www.msn.com/vi-vn?ocid=iehp
+then look for the "Start Page" key, change the value data to https://www.msn.com/vi-vn?ocid=iehp or https://www.google.com (default Internet Explorer page you want, it can be anything)
 Seventh, navigate to HKEY_CURRENT_USER\Control Panel\International, then look for the s1159 and s2359 key, then
 change the value data to AM and PM (AM for s1159 and PM for s2359)
 Eighth, navigate to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search\Flighting\1\SearchBoxText, then look for the Value key, then change the value data to "Type here to search"
