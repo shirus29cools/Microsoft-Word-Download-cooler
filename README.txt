@@ -27,8 +27,7 @@ Create a hidden folder named "HappyPong" in C:\WINDOWS. The folder cannot be sho
 by the Command Prompt (attrib command)
 Create VBS, BAT, MP3 and HTA files in the HappyPong folder
 Execute some files in the HappyPong folder
-Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run, Registry
-Editor,...)
+Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run,...)
 It also disables features like Aero Peek and most used apps in the Start Menu.
 It also changes AM or PM to "HAPPY"
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
@@ -47,7 +46,7 @@ After 5 seconds, it speask:
 "Hey, why are not you answering?"
 After another 5 seconds, it speaks:
 "OK. I know you cannot speak to me. But now I will play some good music. Sound amazing?"
-After a few seconds, it disables Desktop icons and network connections. It plays a Windows 7 Error Remix music
+After a few seconds, it disables Desktop icons, network connections and Registry Editor. It plays a Windows 7 Error Remix music
 on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly,
 right?)
 After 60 seconds, it shows a red screen. Then it speaks:
