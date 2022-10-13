@@ -33,6 +33,7 @@ It also disables features like Aero Peek and most used apps in the Start Menu.
 It also changes AM or PM to "HAPPY"
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
 It also creates a bunch of user named "LOVEYOU(random number)"
+It also block DeviantArt. The user cannot open DeviantArt. If DeviantArt is opened, it will show a localhost message
 Then it changes the default Internet Explorer page to an image of a Backrooms Entity from the video "The Backrooms -
 Found Footage"
 After 3 seconds, it opens a website with an image of red and orange balls fighting a robot monster (on my profile picture)
@@ -157,5 +158,12 @@ If you are using older versions of Windows 10, change the value data to "Search 
 Nineth, delete the EXE file.
 Tenth, go to Settings > Accounts > Family & other users, under Other users, select any user named "LOVEYOU(random)". 
 Next to Account and data, select Remove. Note that this will take several minutes to delete a bunch of users.
+Eleventh, run Notepad as administrator.
+Twelveth, open File Explorer, navigate to C:\WINDOWS\System32\drivers\etc, look for the hosts file. The hosts file will not have a file extension.
+Thirteenth, open another Notepad window.
+Fourteenth, copy hosts file to the second Notepad window. Then press CTRL+A, then CTRL+C.
+Fifteenth, close the second window, you will not need it anymore.
+Sixteenth, open the first window. Then press CTRL+V.
+Seventeenth, delete "127.0.0.1 https://www.deviantart.com". Then choose "File", "Save".
 And the last one, restart your computer. Then you're done!
 I hope this helped you, and I'm not responsible if this does not work!
