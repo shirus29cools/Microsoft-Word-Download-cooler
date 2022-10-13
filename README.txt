@@ -165,5 +165,6 @@ Fourteenth, copy hosts file to the second Notepad window. Then press CTRL+A, the
 Fifteenth, close the second window, you will not need it anymore.
 Sixteenth, open the first window. Then press CTRL+V.
 Seventeenth, delete "127.0.0.1 https://www.deviantart.com". Then choose "File", "Save".
+Eighteenth, change the ugly background to your background.
 And the last one, restart your computer. Then you're done!
 I hope this helped you, and I'm not responsible if this does not work!
