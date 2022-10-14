@@ -10,7 +10,7 @@ Operating systems: Microsoft Windows
 Creator: Kevin Reagan
 Date: October 13th, 2022
 Origin: Vietnam
-Programming Language: Batch
+Programming Language: Batch, VBScript, JavaScript
 File type: .exe, .bat
 Alias(es): Trojan.BAT.HappyPong, Trojan.Batch.HappyPong, Trojan.Win32.HappyPong,
 Trojan.BAT.fukpong, Trojan.Batch.fukpong, Trojan.Win32.fukpong
@@ -68,4 +68,4 @@ Please note that the computer will shut down every time when the user boot to th
 Safe Mode will be useless because there is no power options.
 
 Removal:
-There are no known removal for this virus.
+There are no known removal for this virus. 
