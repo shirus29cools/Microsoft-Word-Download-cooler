@@ -67,5 +67,8 @@ After OK is pressed and their password is entered, the computer will shut down.
 Please note that the computer will shut down every time when the user boot to their desktop.
 Safe Mode will be useless because there is no power options.
 
+Easter Eggs:
+There is a funny thing in this virus. If the user have Outlook then the virus will send an image from Alear TG TF by Gaminglover on DeviantArt.
+
 Removal:
 There are no known removal for this virus. 
