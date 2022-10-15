@@ -51,14 +51,14 @@ on the background. It also change the username to "LOVEYOU". It also change the 
 right?)
 After 60 seconds, it shows a red screen. Then it speaks:
 "A problem has been detected and windows has been suspended for the rest of your life!"
+And after another 20 seconds, it speaks:
+"Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you!
+You just recieved a fake email from Daniel! Hehe get scammed noob!"
 And a funny thing is... Every 60 seconds, it shows a red screen then it speaks. It does this eight times (for 8
 minutes)
 After 9 or 10 minutes, it terminates File Explorer, then it shows a message saying:
 "Thank you for playing my game! But you are tricked! You cannot get your computer back! HAHAHAHAHAHAHAHAHA!!!!!
 PREPARE FOR A SHUTDOWN BATTLE!!!!!"
-Then it speaks:
-"Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you!
-You just recieved a fake email from Daniel! Hehe get scammed noob!"
 After 10 seconds, it will shut down the computer.
 If the computer is turned on, the user will see a logon message saying:
 "GET_READY_TO_BE_KISSED!"
