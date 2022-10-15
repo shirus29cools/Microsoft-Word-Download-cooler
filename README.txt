@@ -72,3 +72,10 @@ There is a funny thing in this virus. If the user have Outlook then the virus wi
 
 Removal:
 There are no known removal for this virus. 
+
+References:
+1. https://www.deviantart.com/gaminglover/art/Fire-Emblem-Engage-Alear-TG-TF-Sequence-929787899
+2. https://lhuong270767.wixsite.com/happy
+3. https://www.youtube.com/watch?v=H4dGpz6cnHo
+4. https://www.youtube.com/watch?v=5BZLz21ZS_Y
+5. https://i.imgur.com/ilGkG6C.jpeg
