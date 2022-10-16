@@ -30,6 +30,7 @@ Execute some files in the HappyPong folder
 Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run,...)
 It also disables features like Aero Peek and most used apps in the Start Menu.
 It also changes AM or PM to "HAPPY"
+It also changes the Taskbar color
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
 It also creates a bunch of user named "LOVEYOU(random number)"
 It also block DeviantArt. The user cannot open DeviantArt. If DeviantArt is opened, it will show a localhost message
@@ -46,25 +47,24 @@ After 5 seconds, it speask:
 "Hey, why are not you answering?"
 After another 5 seconds, it speaks:
 "OK. I know you cannot speak to me. But now I will play some good music. Sound amazing?"
-After a few seconds, it disables Desktop icons, network connections and Registry Editor. It plays a Windows 7 Error Remix music
-on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly,
-right?)
+After a few seconds, it disables Desktop icons, network connections and Registry Editor and it change the lock screen background to an SCP-173 image. It plays a Windows 7 Error Remix music on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly, right?)
 After 60 seconds, it shows a red screen. Then it speaks:
 "A problem has been detected and windows has been suspended for the rest of your life!"
-And after another 20 seconds, it speaks:
-"Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you!
-You just recieved a fake email from Daniel! Hehe get scammed noob!"
 And a funny thing is... Every 60 seconds, it shows a red screen then it speaks. It does this eight times (for 8
 minutes)
 After 9 or 10 minutes, it terminates File Explorer, then it shows a message saying:
 "Thank you for playing my game! But you are tricked! You cannot get your computer back! HAHAHAHAHAHAHAHAHA!!!!!
 PREPARE FOR A SHUTDOWN BATTLE!!!!!"
+Then it speaks:
+"Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you!
+You just recieved a fake email from Daniel! Hehe get scammed noob!"
 After 10 seconds, it will shut down the computer.
 If the computer is turned on, the user will see a logon message saying:
 "GET_READY_TO_BE_KISSED!"
 "I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1"
 After OK is pressed and their password is entered, the computer will shut down.
-Please note that the computer will shut down every time when the user boot to their desktop.
+Please note that the computer will shut down every time when the user boot to their desktop and a message saying:
+"SHUTDOWN BATTLE STARTING... FOREVER!" with no title
 Safe Mode will be useless because there is no power options.
 
 Easter Eggs:
