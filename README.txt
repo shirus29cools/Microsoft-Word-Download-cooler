@@ -18,10 +18,10 @@ Trojan.BAT.fukpong, Trojan.Batch.fukpong, Trojan.Win32.fukpong
 Payloads:
 When the virus is executed, it will show a message saying:
 "fukpong.exe is not a valid Win32 application!"
-If OK is pressed or the message is closed, it will wait 20 seconds then it will show its payloads. If the user end the
-process (mshta.exe, HappyPong.exe) in the Task Manager before running, the virus will not show its payloads after 20
+If OK is pressed or the message is closed, it will wait 30 seconds then it will show its payloads. If the user end the
+process (mshta.exe, HappyPong.exe) in the Task Manager before running, the virus will not show its payloads after 30
 seconds.
-After 20 seconds, it will restart File Explorer, then terminate mutiple programs like Task Manager. Then it will:
+After 30 seconds, it will restart File Explorer, then terminate mutiple programs like Task Manager. Then it will:
 Create a .txt file in its location named "note.txt". The TXT file looks like an email. But it's not.
 Create a hidden folder named "HappyPong" in C:\WINDOWS. The folder cannot be shown by Folder Options because it is hidden
 by the Command Prompt (attrib command)
@@ -67,15 +67,25 @@ Please note that the computer will shut down every time when the user boot to th
 "SHUTDOWN BATTLE STARTING... FOREVER!" with no title
 Safe Mode will be useless because there is no power options.
 
-Easter Eggs:
-There is a funny thing in this virus. If the user have Outlook then the virus will send an image from Alear TG TF by Gaminglover on DeviantArt.
+Rejected payloads:
+1. Changing the password to "666" (Rejected because the code won't work)
+2. Changing the time to 6:06AM (Rejected because the code won't work)
+3. If the username is "Flora" or "Brendan", it will open a Scratch website
+4. If the user has Outlook, it will send an email that has an image from Alear TG TF on DeviantArt (Rejected because
+the VBS file won't work)
+5. Spawn files on folders
+6. Delete some folders in C:\Users\username
+7. RestrictRun registry key (Rejected because me found out that this is a good code, maybe...)
+8. HKCU\Software\HappyPong key
 
 Removal:
 There are no known removal for this virus. 
 
-References:
-1. https://www.deviantart.com/gaminglover/art/Fire-Emblem-Engage-Alear-TG-TF-Sequence-929787899
+External links:
+1. https://www.deviantart.com/gaminglover/art/fire-emblem-engage-alear-tg-tf-sequence-929787899
 2. https://lhuong270767.wixsite.com/happy
 3. https://www.youtube.com/watch?v=H4dGpz6cnHo
 4. https://www.youtube.com/watch?v=5BZLz21ZS_Y
 5. https://i.imgur.com/ilGkG6C.jpeg
+6. https://scratch.mit.edu/users/brendancodingxd
+7. https://scratch.mit.edu/users/queennotonline
