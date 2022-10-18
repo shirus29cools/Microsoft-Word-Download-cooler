@@ -77,6 +77,7 @@ the VBS file won't work)
 6. Delete some folders in C:\Users\username
 7. RestrictRun registry key (Rejected because me found out that this is a good code, maybe...)
 8. HKCU\Software\HappyPong key
+9. After 69 seconds, it will run a meme version of MEMZ (Rejected because some versions of PowerShell will not download the FUK.exe file)
 
 Removal:
 There are no known removal for this virus. 
