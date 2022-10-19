@@ -29,8 +29,10 @@ Create VBS, BAT, MP3 and HTA files in the HappyPong folder
 Execute some files in the HappyPong folder
 Then it will disable some programs (Task Manager, Control Panel, Run, Command Prompt - allowing batch files to run,...)
 It also disables features like Aero Peek and most used apps in the Start Menu.
+It also changes all files in the .exe file's location to .vbs (VMware files, VirtualBox files, Scratch files, bat and cmd files, HTML files, image files, system files and more)
 It also changes AM or PM to "HAPPY"
 It also changes the Taskbar color
+It also disables the Windows Defender (only on supported OSes)
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
 It also creates a bunch of user named "LOVEYOU(random number)"
 It also block DeviantArt. The user cannot open DeviantArt. If DeviantArt is opened, it will show a localhost message
@@ -47,7 +49,7 @@ After 5 seconds, it speask:
 "Hey, why are not you answering?"
 After another 5 seconds, it speaks:
 "OK. I know you cannot speak to me. But now I will play some good music. Sound amazing?"
-After a few seconds, it disables Desktop icons, network connections and Registry Editor and it change the lock screen background to an SCP-173 image. It plays a Windows 7 Error Remix music on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly, right?)
+After a few seconds, it disables Desktop icons, network connections and Registry Editor and it change the lock screen background to an SCP-173 image (this payload may not work). It plays a Windows 7 Error Remix music on the background. It also change the username to "LOVEYOU". It also change the background to my profile picture (ugly, right?)
 After 60 seconds, it shows a red screen. Then it speaks:
 "A problem has been detected and windows has been suspended for the rest of your life!"
 And a funny thing is... Every 60 seconds, it shows a red screen then it speaks. It does this eight times (for 8
