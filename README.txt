@@ -75,10 +75,12 @@ Rejected payloads:
 the VBS file won't work)
 5. Spawn files on folders
 6. Delete some folders in C:\Users\username
-7. RestrictRun registry key (Rejected because me found out that this is a good code, maybe...)
+7. RestrictRun registry key (Rejected because me found out that this is a good code, maybe... And it caused explorer.exe restarting loop)
 8. HKCU\Software\HappyPong key
 9. After 69 seconds, it will run a meme version of MEMZ (Rejected because some versions of PowerShell will not download the FUK.exe file)
 10. The StopExploring folder inside C:\WINDOWS\HappyPong
+11. Rename all file named "HAPPY" to HAPPY.LOVEYOU(random number) (This is fixed)
+12. Delete the SetupType key (Rejected because the VBS file won't work)
 
 Removal:
 There are no known removal for this virus. 
