@@ -1,8 +1,0 @@
-Are you looking for a way to prank your computer?
-Well... You went to the right place!
-Just download the EXE file. Windows Defender will not detect it (I tested on VMware with WSecurity enabling)
-
-IMPORTANT PARTS:
-DO NOT TRY THIS ON YOUR REAL PC
-IF YOU ARE PRANKING YOUR FRIENDS, IT IS RECOMMENDED TO HELP YOUR FRIEND FIXING THE COMPUTER!
-I AM NOT RESPONSIBLE FOR ANY DAMAGES AND IF YOUR FRIEND GETS ANGRY WITH YOU (just kidding lol xd)!
