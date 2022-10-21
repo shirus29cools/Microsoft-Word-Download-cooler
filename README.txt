@@ -35,7 +35,6 @@ It also changes the Taskbar color
 It also disables the Windows Defender (only on supported OSes)
 It also changes the search box text to "YOUR_COMPUTER_HAS_BEEN_TRASHED!" (only on Windows 10)
 It also creates a bunch of user named "LOVEYOU(random number)"
-It also block DeviantArt. The user cannot open DeviantArt. If DeviantArt is opened, it will show a localhost message
 Then it changes the default Internet Explorer page to an image of a Backrooms Entity from the video "The Backrooms -
 Found Footage"
 After 3 seconds, it opens a website with an image of red and orange balls fighting a robot monster (on my profile picture)
@@ -83,6 +82,8 @@ the VBS file won't work)
 10. The StopExploring folder inside C:\WINDOWS\HappyPong
 11. Rename all file named "HAPPY" to HAPPY.LOVEYOU(random number) (This is fixed)
 12. Delete the SetupType key (Rejected because the VBS file won't work)
+13. Block DeviantArt (the hosts file won't work)
+14. NonEnum? (Rejected because the code won't work)
 
 Removal:
 There are no known removal for this virus. 
