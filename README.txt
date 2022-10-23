@@ -84,6 +84,7 @@ the VBS file won't work)
 12. Delete the SetupType key (Rejected because the VBS file won't work)
 13. Block DeviantArt (the hosts file won't work)
 14. NonEnum? (Rejected because the code won't work)
+15. Enterkey.vbs (Rejected because the VBS file works, but do nothing)
 
 Removal:
 There are no known removal for this virus. 
