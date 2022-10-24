@@ -8,7 +8,7 @@ Name:HappyPong, HappyPong.exe, fukpong, fukpong.exe
 Type: Trojan
 Operating systems: Microsoft Windows
 Creator: Kevin Reagan
-Date: October 16th, 2022
+Date: October 24th, 2022
 Origin: Vietnam
 Programming Language: Batch, VBScript, JavaScript
 File type: .exe, .bat
@@ -68,6 +68,30 @@ Please note that the computer will shut down every time when the user boot to th
 "SHUTDOWN BATTLE STARTING... FOREVER!" with no title
 Safe Mode will be useless because there is no power options.
 
+Signs:
+Before executing the virus:
+This virus is known as fake Microsoft Word
+1. A zip file named "HAPPYPONG_SETUP_WINRAR 60 66 60 06"
+2. Inside the zip file, there is a folder named "HAPPY", a txt file, and an exe file
+3. Inside the HAPPY folder, it contains the "HAPPY0", "HAPPY1", "HAPPY10", "HAPPY100", "HAPPY1000", "HAPPY1001" and the "where are other folders" folders.
+4. Inside "where are other folders", there is a file named READ THIS CAREFULLY or source_code
+5. The TXT file in HAPPYPONG_SETUP_WINRAR folder is named "Thank you for downloading Microsoft Word!"
+6. The EXE file is named "HappyPong", and it has a word icon
+7. The EXE file's version is 6.6.6.6, and the original filename is "fukpong.exe"
+8. The EXE file is ran as administrator
+After executing the virus:
+1. A message in Windows XP or older appeared. The filename is HappyPong.exe, but it says fukpong.exe. At the end of the message, it must be a ".", not a "!" .
+2. In the PC corner, there is a message saying "You must restart your computer to turn off User Account Control"
+3. Explorer.exe restarted
+4. imgur and scratch link opens automatically
+5. Musics and voices play in the background
+6. Red screen appears
+7. Explorer.exe terminated, and a message appears
+8. PC Shutdown automatically
+9. Logon message
+10. Mutiple users in lock screen
+11. PC shutdowns when password is entered
+
 Rejected payloads:
 1. Changing the password to "666" (Rejected because the code won't work)
 2. Changing the time to 6:06AM (Rejected because the code won't work)
@@ -76,18 +100,17 @@ Rejected payloads:
 the VBS file won't work)
 5. Spawn files on folders
 6. Delete some folders in C:\Users\username
-7. RestrictRun registry key (Rejected because me found out that this is a good code, maybe... And it caused explorer.exe restarting loop)
-8. HKCU\Software\HappyPong key
-9. After 69 seconds, it will run a meme version of MEMZ (Rejected because some versions of PowerShell will not download the FUK.exe file)
-10. The StopExploring folder inside C:\WINDOWS\HappyPong
-11. Rename all file named "HAPPY" to HAPPY.LOVEYOU(random number) (This is fixed)
-12. Delete the SetupType key (Rejected because the VBS file won't work)
-13. Block DeviantArt (the hosts file won't work)
-14. NonEnum? (Rejected because the code won't work)
-15. Enterkey.vbs (Rejected because the VBS file works, but do nothing)
+7. HKCU\Software\HappyPong key
+8. After 69 seconds, it will run a meme version of MEMZ (Rejected because some versions of PowerShell will not download the FUK.exe file)
+9. The StopExploring folder inside C:\WINDOWS\HappyPong
+10. Rename all file named "HAPPY" to HAPPY.LOVEYOU(random number) (This is fixed)
+11. Delete the SetupType key (Rejected because the VBS file won't work)
+12. Block DeviantArt (the hosts file won't work)
+13. NonEnum? (Rejected because the code won't work)
+14. Enterkey.vbs (Rejected because the VBS file works, but do nothing)
 
 Removal:
-There are no known removal for this virus. 
+There are no known removal for this virus. The removal is very hard. You must download a tool like WMERT to remove this virus.
 
 External links:
 1. https://www.deviantart.com/gaminglover/art/fire-emblem-engage-alear-tg-tf-sequence-929787899
