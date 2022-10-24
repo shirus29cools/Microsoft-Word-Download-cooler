@@ -74,7 +74,7 @@ This virus is known as fake Microsoft Word
 1. A zip file named "HAPPYPONG_SETUP_WINRAR 60 66 60 06"
 2. Inside the zip file, there is a folder named "HAPPY", a txt file, and an exe file
 3. Inside the HAPPY folder, it contains the "HAPPY0", "HAPPY1", "HAPPY10", "HAPPY100", "HAPPY1000", "HAPPY1001" and the "where are other folders" folders.
-4. Inside "where are other folders", there is a file named READ THIS CAREFULLY or source_code
+4. Inside "where are other folders", there is a file named READ THIS CAREFULLY or SOURCE CODE
 5. The TXT file in HAPPYPONG_SETUP_WINRAR folder is named "Thank you for downloading Microsoft Word!"
 6. The EXE file is named "HappyPong", and it has a word icon
 7. The EXE file's version is 6.6.6.6, and the original filename is "fukpong.exe"
@@ -84,13 +84,18 @@ After executing the virus:
 2. In the PC corner, there is a message saying "You must restart your computer to turn off User Account Control"
 3. Explorer.exe restarted
 4. imgur and scratch link opens automatically
-5. Musics and voices play in the background
-6. Red screen appears
-7. Explorer.exe terminated, and a message appears
-8. PC Shutdown automatically
-9. Logon message
-10. Mutiple users in lock screen
-11. PC shutdowns when password is entered
+5. Date changed to June 6 2006, (computer time) HAPPY.
+6. Musics and voices play in the background
+7. Red screen appears
+8. Background changed and empty desktop
+9. Cannot shutdown PC
+10. Cannot access drives and folders
+11. No clock or volume on taskbar
+12. Explorer.exe terminated, and a message appears
+13. PC Shutdown automatically
+14. Logon message
+15. Mutiple users in lock screen
+16. PC shutdowns when password is entered
 
 Rejected payloads:
 1. Changing the password to "666" (Rejected because the code won't work)
